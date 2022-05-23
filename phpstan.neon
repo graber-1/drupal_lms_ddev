@@ -1,0 +1,28 @@
+parameters:
+  customRulesetUsed: true
+  reportUnmatchedIgnoredErrors: false
+  checkGenericClassInNonGenericObjectType: true
+  checkMissingIterableValueType: true
+  checkMissingVarTagTypehint: true
+  checkMissingTypehints: true
+  excludePaths:
+    # Ignore annotated commands.
+    - */src/Commands/*Commands.php
+  ergebnis:
+    allowAbstractClasses: true
+  # Ignore some errors.
+  # ignoreErrors: []
+services:
+  -
+    class: PHPStan\Rules\Functions\MissingFunctionReturnTypehintRule
+    arguments:
+      missingTypehintCheck: @PHPStan\Rules\MissingTypehintCheck
+    tags:
+      - phpstan.rules.rule
+  -
+    class: PHPStan\Rules\Methods\ReturnTypeRule
+    tags:
+      - phpstan.rules.rule
+  - class: PHPStan\Rules\Methods\MissingMethodReturnTypehintRule
+    tags:
+      - phpstan.rules.rule

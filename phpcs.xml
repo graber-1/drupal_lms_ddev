@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ruleset name="My Project">
+  <description>PHP Code Sniffer configuration for My Project.</description>
+  <arg name="colors"/>
+  <arg name="extensions" value="php,module,inc,install,theme,info,txt,yml"/>
+  <file>./web/modules/custom</file>
+  <file>./web/themes/custom</file>
+  <!-- Exclude vendors. -->
+  <exclude-pattern>./web/themes/custom/uh_tw/node_modules</exclude-pattern>
+  <rule ref="vendor/drupal/coder/coder_sniffer/Drupal">
+    <!-- Exclude in favor of native typehints. -->
+    <exclude name="Drupal.Commenting.ClassComment"/>
+    <exclude name="Drupal.Commenting.DocComment"/>
+    <exclude name="Drupal.Commenting.FunctionComment"/>
+    <exclude name="Drupal.Commenting.TodoComment"/>
+    <exclude name="Drupal.Commenting.VariableComment"/>
+    <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint"/>
+  </rule>
+  <rule ref="vendor/drupal/coder/coder_sniffer/DrupalPractice">
+    <!-- Exclude in favor of later schema checking -->
+    <exclude name="DrupalPractice.Objects.StrictSchemaDisabled"/>
+  </rule>
+  <rule ref="vendor/chi-teck/drupal-coder-extension/DrupalExtended74"/>
+  <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint"/>
+</ruleset>
+

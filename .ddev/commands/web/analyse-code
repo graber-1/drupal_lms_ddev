@@ -1,0 +1,5 @@
+#!/bin/bash
+
+phpcbf "$@"
+phpcs "$@"
+phpstan analyse -- "$@"

@@ -22,7 +22,14 @@
         "drush/drush": "^11.0"
     },
     "require-dev": {
-        "drupal/developer_console": "1.x-dev"
+        "chi-teck/drupal-coder-extension": "^1.2",
+        "drupal/core-dev": "10.0.0-alpha-4",
+        "drupal/developer_console": "1.x-dev",
+        "ergebnis/phpstan-rules": "^1.0",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-strict-rules": "^1.2",
+        "phpunit/phpunit": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -34,7 +41,9 @@
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
         }
     },
     "extra": {
