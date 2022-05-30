@@ -4,8 +4,9 @@
 
 1. Install DDEV if not already done: https://ddev.readthedocs.io/en/stable/#installation
 2. `ddev start`
-3. `ddev composer install`
-4. `ddev drush si`
+3. If needed, change Drupal version in composer.json
+4. `ddev composer install`
+5. `ddev drush si`
 
 
 ## Running automated tests
