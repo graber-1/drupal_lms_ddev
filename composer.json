@@ -17,14 +17,15 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
-        "drupal/core": "10.0.0-alpha4",
-        "drupal/core-composer-scaffold": "10.0.0-alpha4",
-        "drupal/core-project-message": "10.0.0-alpha4",
+        "drupal/core": "10.0.x-dev",
+        "drupal/core-composer-scaffold": "10.0.x-dev",
+        "drupal/core-project-message": "10.0.x-dev",
         "drush/drush": "^11.0"
     },
     "require-dev": {
         "chi-teck/drupal-coder-extension": "^1.2",
-        "drupal/core-dev": "10.0.0-alpha-4",
+        "drupal/core-dev": "10.0.x-dev",
+        "drupal/devel": "^5.0",
         "drupal/developer_console": "1.x-dev",
         "ergebnis/phpstan-rules": "^1.0",
         "phpspec/prophecy-phpunit": "^2.0",

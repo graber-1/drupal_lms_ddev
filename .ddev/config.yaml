@@ -6,7 +6,8 @@ webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
-additional_hostnames: []
+additional_hostnames:
+  - subdomain.ddev-demo
 additional_fqdns: []
 database:
   type: mariadb

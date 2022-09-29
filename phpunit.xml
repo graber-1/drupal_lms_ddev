@@ -23,7 +23,7 @@
     <!-- Some required environment variables. -->
     <env name="SIMPLETEST_DB" value="mysql://db:db@db:3306/db"/>
     <env name="SIMPLETEST_BASE_URL" value="http://web"/>
-    <env name="BROWSERTEST_OUTPUT_DIRECTORY" value="/var/www/html/web/sites/default/files/simpletest/browser_output"/>
+    <env name="BROWSERTEST_OUTPUT_DIRECTORY" value="/var/www/html/web/sites/simpletest/browser_output"/>
     <!-- To disable deprecation testing completely uncomment the next line. -->
     <!-- <env name="SYMFONY_DEPRECATIONS_HELPER" value="disabled"/> -->
     <!-- Example for changing the driver class for mink tests MINK_DRIVER_CLASS value: 'Drupal\FunctionalJavascriptTests\DrupalSelenium2Driver' -->
