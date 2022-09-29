@@ -15,11 +15,6 @@
 2. `mkdir web/sites/default/files/simpletest/browser_output` (if not already done)
 3. `phpunit path/to/tests`
 
-Chromedriver weights additional half a Gb so to be able to run
-FunctionalJavaScript tests, do the following:
-1. `cp .ddev/docker-compose.chrome.environment.yaml.tpl docker-compose.chrome.environment.yaml`
-2. `ddev restart`
-
 
 ## Code analysis tools
 
