@@ -33,3 +33,7 @@ stage_file_proxy
 
 # Ignore all files in web
 /web/*.*
+
+# Node modules and packege.lock
+/node_modules
+package-lock.json
