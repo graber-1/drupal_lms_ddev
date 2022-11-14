@@ -19,6 +19,7 @@ parameters:
     - '#Function [a-zA-Z0-9\\_]+\(\) has parameter \$[a-zA-Z0-9\\_]+ with null as default value.#'
     - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\) has parameter \$[a-zA-Z0-9\\_]+ with null as default value.#'
     - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\) has a nullable return type declaration.#'
+    - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\) has parameter \$[a-zA-Z0-9\\_]+ with a nullable type declaration.#'
     - '#Constructor in [a-zA-Z0-9\\_]+ has parameter \$[a-zA-Z0-9\\_]+ with default value.#'
 services:
   -
