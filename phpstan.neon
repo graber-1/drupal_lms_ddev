@@ -12,6 +12,14 @@ parameters:
     allowAbstractClasses: true
   # Ignore some errors.
   # ignoreErrors: []
+  ignoreErrors:
+    - '#Class "[a-zA-Z0-9\\_]+" is not allowed to extend "[a-zA-Z0-9\\_]+".#'
+    - '#Method [a-zA-Z0-9\\_]+::creat[a-zA-Z]+\(\) has a parameter \$container with a type declaration of [a-zA-Z0-9\\_]+, but containers should not be injected.#'
+    - '#Method [a-zA-Z0-9\\_]+ is protected, but since the containing class is final, it can be private.#'
+    - '#Function [a-zA-Z0-9\\_]+\(\) has parameter \$[a-zA-Z0-9\\_]+ with null as default value.#'
+    - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\) has parameter \$[a-zA-Z0-9\\_]+ with null as default value.#'
+    - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\) has a nullable return type declaration.#'
+    - '#Constructor in [a-zA-Z0-9\\_]+ has parameter \$[a-zA-Z0-9\\_]+ with default value.#'
 services:
   -
     class: PHPStan\Rules\Functions\MissingFunctionReturnTypehintRule
