@@ -17,6 +17,7 @@ PATCHES.txt
 /web/sites/default/files
 /files
 /private
+/private_files
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
