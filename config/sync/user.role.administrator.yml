@@ -1,0 +1,15 @@
+uuid: 72739132-1b6c-4f0f-aa68-f7c47cf65b2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+id: administrator
+label: Administrator
+weight: 2
+is_admin: null
+permissions:
+  - 'access group overview'
+  - 'administer group'
+  - 'create learning_path group'
+  - 'create lms_class group'

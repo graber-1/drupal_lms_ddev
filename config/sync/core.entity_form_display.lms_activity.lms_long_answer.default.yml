@@ -1,0 +1,45 @@
+uuid: 1c949de7-438c-4631-8e14-62b95ef71c2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.lms_long_answer.description
+    - lms.lms_activity_type.lms_long_answer
+id: lms_activity.lms_long_answer.default
+targetEntityType: lms_activity
+bundle: lms_long_answer
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  description:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

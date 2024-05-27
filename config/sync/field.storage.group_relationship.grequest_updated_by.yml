@@ -1,0 +1,26 @@
+uuid: b3ddafeb-3d23-46f6-859f-0261e008192f
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - user
+  enforced:
+    module:
+      - group
+      - grequest
+_core:
+  default_config_hash: wo_dig93_eCjJBz2pNVt-r23WQmA7CrrhbTZltTPRZM
+id: group_relationship.grequest_updated_by
+field_name: grequest_updated_by
+entity_type: group_relationship
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: true
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 2c3622d7-1cd8-4099-955f-273d7d1f97fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+id: learning_path-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: learning_path
+permissions: {  }

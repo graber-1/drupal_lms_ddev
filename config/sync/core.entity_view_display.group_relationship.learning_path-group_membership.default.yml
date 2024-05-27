@@ -1,0 +1,23 @@
+uuid: 3a4f43de-28dc-427b-942b-3c4468a5457b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.learning_path-group_membership.group_roles
+    - group.relationship_type.learning_path-group_membership
+id: group_relationship.learning_path-group_membership.default
+targetEntityType: group_relationship
+bundle: learning_path-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  uid: true

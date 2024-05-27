@@ -6,7 +6,7 @@
 2. `ddev start`
 3. If needed, change Drupal version in composer.json
 4. `ddev composer install`
-5. `ddev drush si`
+5. `ddev composer si`
 
 
 ## Running automated tests
@@ -19,10 +19,18 @@
 ## Code analysis tools
 
 To check all, run `ddev analyse-code path/to/analyzed/folder`.
-For single tool analysis (after `ddev ssh`):
-1. phpcs: `phpcs path/to/analyzed/folder`
-2. phpcbf: `phpcbf path/to/analyzed/folder`
-3. phpstan: `phpstan analyse -- path/to/analyzed/folder`
+For single tool analysis of the LMS module execute:
+1. phpcs: `ddev composer phpcs`
+2. phpcbf: `ddev composer phpcbf`
+3. phpstan: `ddev composer phpstan`
+
+
+## Local development
+
+1. `cd web/modules/contrib/lms`
+2. `git remote add your-fork-name your-fork-ssh`
+3. Checkout issue branch, make changes, push to your fork,
+   create a merge request.
 
 
 ## PHPMyAdmin

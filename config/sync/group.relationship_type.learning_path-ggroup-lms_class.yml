@@ -1,0 +1,16 @@
+uuid: 609b3568-946e-4d77-9d9e-ef09ebdd1dc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+    - group.type.lms_class
+  module:
+    - ggroup
+id: learning_path-ggroup-lms_class
+group_type: learning_path
+content_plugin: 'ggroup:lms_class'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

@@ -1,0 +1,9 @@
+uuid: 460afb69-6917-43bc-acba-b45ccdabbb27
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uxGLth5NBRTcf2sm6znOq9S_YXGoMnllmhbQgiG3jXk
+id: lms_long_answer
+name: 'Long answer'
+description: null

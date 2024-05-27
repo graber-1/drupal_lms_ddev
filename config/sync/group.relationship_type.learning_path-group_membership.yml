@@ -1,0 +1,15 @@
+uuid: d21279d3-eef2-4708-9521-a7f40ce51f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+  module:
+    - user
+id: learning_path-group_membership
+group_type: learning_path
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

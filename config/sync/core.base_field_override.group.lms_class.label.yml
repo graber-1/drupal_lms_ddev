@@ -1,0 +1,18 @@
+uuid: 3f573c98-3cc8-441f-a7bc-505ece85609b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+id: group.lms_class.label
+field_name: label
+entity_type: group
+bundle: lms_class
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

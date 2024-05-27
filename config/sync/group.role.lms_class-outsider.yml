@@ -1,0 +1,17 @@
+uuid: c334255a-b9e4-4518-a3ac-d75c4ebf7041
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+    - user.role.authenticated
+id: lms_class-outsider
+label: Outsider
+weight: 101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: lms_class
+permissions:
+  - 'delete group'
+  - 'view group'

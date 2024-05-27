@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: Q2J6sKW_F8CUWhwi6XeRIKd6TQxTTzwhsrdLO0ZBGk4
+error_level: hide
+log_deprecations: false
+deprecations_ignored_file_patterns: ''
+ignored_deprecations: ''

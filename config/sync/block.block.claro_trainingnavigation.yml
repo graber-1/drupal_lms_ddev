@@ -1,0 +1,36 @@
+uuid: a956a862-d6c0-41cf-b9ff-768af7121f6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - lms
+    - system
+  theme:
+    - claro
+id: claro_trainingnavigation
+theme: claro
+region: content
+weight: -2
+provider: null
+plugin: lp_steps_block
+settings:
+  id: lp_steps_block
+  label: 'Training navigation'
+  label_display: visible
+  provider: lms
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+    group: '@group.group_route_context:group'
+visibility:
+  group_type:
+    id: group_type
+    group_types:
+      learning_path: learning_path
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/training/*'

@@ -1,0 +1,22 @@
+uuid: 2bf4bbab-9dad-4bd2-a22f-9b242fd23716
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group_relationship.group_roles
+    - group.relationship_type.learning_path-group_membership
+id: group_relationship.learning_path-group_membership.group_roles
+field_name: group_roles
+entity_type: group_relationship
+bundle: learning_path-group_membership
+label: Roles
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'group_type:group_role'
+  handler_settings:
+    group_type_id: learning_path
+field_type: entity_reference

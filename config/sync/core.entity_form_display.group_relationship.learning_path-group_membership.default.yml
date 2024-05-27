@@ -1,0 +1,30 @@
+uuid: 4a9b340f-37fa-4ec9-b79e-c6a93f609d91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.learning_path-group_membership.group_roles
+    - group.relationship_type.learning_path-group_membership
+id: group_relationship.learning_path-group_membership.default
+targetEntityType: group_relationship
+bundle: learning_path-group_membership
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  group_roles:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

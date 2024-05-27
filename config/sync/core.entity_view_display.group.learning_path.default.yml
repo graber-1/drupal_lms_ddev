@@ -1,0 +1,23 @@
+uuid: 3001288e-4b5c-4098-b4da-c17262b97cba
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+id: group.learning_path.default
+targetEntityType: group
+bundle: learning_path
+mode: default
+content:
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  changed: true
+  created: true
+  uid: true

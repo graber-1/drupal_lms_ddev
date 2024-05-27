@@ -1,0 +1,30 @@
+uuid: f77753fd-dd19-4678-8b84-f5b053e3e41d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.lms_class-group_membership.group_roles
+    - group.relationship_type.lms_class-group_membership
+id: group_relationship.lms_class-group_membership.default
+targetEntityType: group_relationship
+bundle: lms_class-group_membership
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  group_roles:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

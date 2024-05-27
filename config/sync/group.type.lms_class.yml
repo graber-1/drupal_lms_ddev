@@ -1,0 +1,12 @@
+uuid: a7532d2c-6ee2-4853-905b-0a2c9f3dc141
+langcode: en
+status: true
+dependencies: {  }
+id: lms_class
+label: Class
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - lms_class-admin
