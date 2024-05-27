@@ -2,11 +2,13 @@
 
 ## Setting up
 
-1. Install DDEV if not already done: https://ddev.readthedocs.io/en/stable/#installation
-2. `ddev start`
-3. If needed, change Drupal version in composer.json
-4. `ddev composer install`
-5. `ddev composer si`
+1. Clone this repo, enter the folder.
+2. Install DDEV if not already done: https://ddev.readthedocs.io/en/stable/#installation
+3. `ddev start`
+4. If needed, change Drupal version in composer.json
+5. `ddev composer install`
+6. `ddev composer update drupal/lms`
+7. `ddev composer si`
 
 
 ## Running automated tests
@@ -29,7 +31,8 @@ For single tool analysis of the LMS module execute:
 
 1. `cd web/modules/contrib/lms`
 2. `git remote add your-fork-name your-fork-ssh`
-3. Checkout issue branch, make changes, push to your fork,
+3. `git pull`
+4. Checkout issue branch, make changes, push to your fork,
    create a merge request.
 
 
