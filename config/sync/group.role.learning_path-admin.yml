@@ -1,9 +1,11 @@
-uuid: 2c3622d7-1cd8-4099-955f-273d7d1f97fc
+uuid: 97a255d3-a9ed-4ee2-8929-c06ac22e9c01
 langcode: en
 status: true
 dependencies:
   config:
     - group.type.learning_path
+_core:
+  default_config_hash: lovmUykLhZRmqOBLonesNk85x2Dw0Un52GHT9ZKGVT4
 id: learning_path-admin
 label: Admin
 weight: 100

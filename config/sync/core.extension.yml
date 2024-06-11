@@ -4,25 +4,16 @@ module:
   admin_toolbar: 0
   block: 0
   breakpoint: 0
-  config: 0
-  config_inspector: 0
-  contextual: 0
   dblog: 0
-  devel_generate: 0
-  developer_console: 0
   dynamic_page_cache: 0
   entity: 0
   field: 0
-  field_ui: 0
   filter: 0
   flexible_permissions: 0
   ggroup: 0
   grequest: 0
   group: 0
-  link: 0
   lms: 0
-  menu_link_content: 0
-  menu_ui: 0
   mysql: 0
   node: 0
   options: 0

@@ -1,10 +1,12 @@
-uuid: 3a4f43de-28dc-427b-942b-3c4468a5457b
+uuid: 0ef37ddd-9333-423c-8f9a-096aefd5642c
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.group_relationship.learning_path-group_membership.group_roles
     - group.relationship_type.learning_path-group_membership
+_core:
+  default_config_hash: oZFWMKBYQP2pHDwP5FZJpkDOmvJrm7F557axjwJqk8Y
 id: group_relationship.learning_path-group_membership.default
 targetEntityType: group_relationship
 bundle: learning_path-group_membership

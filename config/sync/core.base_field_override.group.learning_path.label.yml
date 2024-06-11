@@ -1,9 +1,11 @@
-uuid: 43ddb6e9-bde3-4f4d-af7a-d23faa2e80de
+uuid: 6f7cf366-3130-4929-9a0e-46492f6da7ef
 langcode: en
 status: true
 dependencies:
   config:
     - group.type.learning_path
+_core:
+  default_config_hash: 7cwTLGVZMfgooeYoAoyp7s1HoZR6sU1dEw_StQXqKXc
 id: group.learning_path.label
 field_name: label
 entity_type: group

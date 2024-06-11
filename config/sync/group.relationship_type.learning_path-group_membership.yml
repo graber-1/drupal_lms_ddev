@@ -1,4 +1,4 @@
-uuid: d21279d3-eef2-4708-9521-a7f40ce51f41
+uuid: 4961bd7b-efe4-482d-bb89-dc4337f808e0
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - group.type.learning_path
   module:
     - user
+_core:
+  default_config_hash: owgWDjYD0l-RuPW0hMAxbV5tMa8c60hYRjj429492Uk
 id: learning_path-group_membership
 group_type: learning_path
 content_plugin: group_membership

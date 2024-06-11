@@ -1,0 +1,14 @@
+uuid: fe9f91e6-68b4-4287-b3cd-11f0024e5f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lms_admin
+  module:
+    - user
+id: user_add_role_action.lms_admin
+label: 'Add the LMS Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lms_admin

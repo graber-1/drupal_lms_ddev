@@ -1,4 +1,4 @@
-uuid: 609b3568-946e-4d77-9d9e-ef09ebdd1dc7
+uuid: e3784049-90b2-4974-a9bc-45f14b967be5
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - group.type.lms_class
   module:
     - ggroup
+_core:
+  default_config_hash: ypwl-SbkOo7eCTiwQ-09zkVpCYJxlKQrkEjRtdVcdQ0
 id: learning_path-ggroup-lms_class
 group_type: learning_path
 content_plugin: 'ggroup:lms_class'

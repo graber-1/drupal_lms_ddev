@@ -1,12 +1,14 @@
-uuid: b15ac2b9-f586-431b-afb4-8f6947062e52
+uuid: 63484cb0-5b6e-4126-b2dd-bcca7c14c86a
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: xcDONGP6Nxye8MPHY5GpTif8r1NuEUUPZjm1ZPvqeZQ
 id: learning_path
 label: 'Learning path'
 description: ''
 new_revision: true
 creator_membership: true
-creator_wizard: false
+creator_wizard: true
 creator_roles:
   - learning_path-admin

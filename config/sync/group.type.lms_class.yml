@@ -1,12 +1,14 @@
-uuid: a7532d2c-6ee2-4853-905b-0a2c9f3dc141
+uuid: 2fe485c9-c73d-43ed-b7c6-2e209bd087fc
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: KjVdE7zp2y7UVb3OmZJ5zZ7ljorgqtCxkbk2GLOSqFg
 id: lms_class
 label: Class
 description: ''
 new_revision: true
 creator_membership: true
-creator_wizard: false
+creator_wizard: true
 creator_roles:
   - lms_class-admin

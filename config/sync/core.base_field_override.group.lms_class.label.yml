@@ -1,9 +1,11 @@
-uuid: 3f573c98-3cc8-441f-a7bc-505ece85609b
+uuid: 62ab2e4d-3229-43c8-a70d-93aab569e0bb
 langcode: en
 status: true
 dependencies:
   config:
     - group.type.lms_class
+_core:
+  default_config_hash: qtxHqOJjykPWE3Um-KEskgMCIUHw2RaukaqwNmK6Hww
 id: group.lms_class.label
 field_name: label
 entity_type: group

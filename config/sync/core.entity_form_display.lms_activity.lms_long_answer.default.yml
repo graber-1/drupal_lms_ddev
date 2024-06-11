@@ -1,10 +1,12 @@
-uuid: 1c949de7-438c-4631-8e14-62b95ef71c2d
+uuid: 60914a10-9cd8-4673-8cd5-7b1d00a47acb
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.lms_activity.lms_long_answer.description
     - lms.lms_activity_type.lms_long_answer
+_core:
+  default_config_hash: MbdtHAv_CN2VjRBKRgd2QTFAAN3geyMeNY8FTm79gzM
 id: lms_activity.lms_long_answer.default
 targetEntityType: lms_activity
 bundle: lms_long_answer

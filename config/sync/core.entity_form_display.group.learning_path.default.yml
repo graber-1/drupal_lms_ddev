@@ -1,4 +1,4 @@
-uuid: 6b169518-b47f-455f-aa47-8b80392a4efb
+uuid: c56302e0-ac3f-4b86-80f7-2922788c1899
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - group.type.learning_path
   module:
     - lms
+_core:
+  default_config_hash: AvxoRlOK0TTXrOKua9aDBmd4CrlV9-lu7V5mHoOvO9k
 id: group.learning_path.default
 targetEntityType: group
 bundle: learning_path

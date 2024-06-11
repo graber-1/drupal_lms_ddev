@@ -1,4 +1,4 @@
-uuid: ab6f1c24-8f2e-4dd8-833b-553619e6407e
+uuid: c747b50f-4918-45f8-8974-8bfde3da0910
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: claro_local_actions
 theme: claro
 region: content
-weight: -3
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

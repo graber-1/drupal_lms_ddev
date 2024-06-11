@@ -1,7 +1,9 @@
-uuid: a29c4011-d774-47e7-8c5f-77e78a51320b
+uuid: 69c34d88-0978-45a4-b3bc-095b13b97777
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.storage.group_relationship.group_roles
   module:
     - group
     - user
@@ -520,7 +522,6 @@ display:
         type: full
         options:
           offset: 0
-          pagination_heading_level: h4
           items_per_page: 50
           total_pages: null
           id: 0
@@ -538,6 +539,7 @@ display:
             offset: false
             offset_label: Offset
           quantity: 9
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

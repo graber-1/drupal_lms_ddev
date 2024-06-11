@@ -1,15 +1,19 @@
-uuid: 72739132-1b6c-4f0f-aa68-f7c47cf65b2f
+uuid: 7a501f0e-90ff-475c-9eed-19a37bf2ca8d
 langcode: en
 status: true
 dependencies:
   module:
     - group
-id: administrator
-label: Administrator
+    - lms
+    - system
+id: lms_admin
+label: 'LMS Admin'
 weight: 2
 is_admin: null
 permissions:
+  - 'access administration pages'
   - 'access group overview'
-  - 'administer group'
+  - 'administer lms'
   - 'create learning_path group'
   - 'create lms_class group'
+  - 'view the administration theme'

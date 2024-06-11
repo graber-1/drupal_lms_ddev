@@ -1,10 +1,12 @@
-uuid: 61fbc6fa-0a0b-44b1-a60b-f55f30530d63
+uuid: 5b3c48f4-d94d-4087-ae69-a1f02f6e428c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.group_relationship.group_roles
     - group.relationship_type.lms_class-group_membership
+_core:
+  default_config_hash: S_WNrYZxIeN-Vga4nz4ZMqoRtoo9dL1DBslIekfi06g
 id: group_relationship.lms_class-group_membership.group_roles
 field_name: group_roles
 entity_type: group_relationship

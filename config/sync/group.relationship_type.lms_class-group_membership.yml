@@ -1,4 +1,4 @@
-uuid: 619ecd69-30a3-43aa-943a-4dd4f1afe55b
+uuid: 2df9a60d-3e61-42d6-8707-ea068ba26b2e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - group.type.lms_class
   module:
     - user
+_core:
+  default_config_hash: 7595tto8OxK7UhKsTjdxacOFWVdYWJUxQqdRwxlCJ38
 id: lms_class-group_membership
 group_type: lms_class
 content_plugin: group_membership

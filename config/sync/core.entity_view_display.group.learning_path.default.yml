@@ -1,9 +1,11 @@
-uuid: 3001288e-4b5c-4098-b4da-c17262b97cba
+uuid: 8632ce51-f3f1-476c-91a2-488d5b9c1693
 langcode: en
 status: true
 dependencies:
   config:
     - group.type.learning_path
+_core:
+  default_config_hash: sYj1zuZ-GzeVUVZh54Q7m35HmPLWdmIn3AdfXXXMhHE
 id: group.learning_path.default
 targetEntityType: group
 bundle: learning_path

@@ -1,10 +1,12 @@
-uuid: f77753fd-dd19-4678-8b84-f5b053e3e41d
+uuid: 582d4c48-3c38-4203-adbf-fa936decba36
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.group_relationship.lms_class-group_membership.group_roles
     - group.relationship_type.lms_class-group_membership
+_core:
+  default_config_hash: tpQSOftzoKjC9eQpIBTIHCQ7Dmnh9fvCAIl1zrZe-bs
 id: group_relationship.lms_class-group_membership.default
 targetEntityType: group_relationship
 bundle: lms_class-group_membership
