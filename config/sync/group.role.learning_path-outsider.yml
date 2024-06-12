@@ -1,0 +1,17 @@
+uuid: 0e40be74-068e-432a-8216-640c328b2b2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+    - user.role.authenticated
+id: learning_path-outsider
+label: Outsider
+weight: 101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: learning_path
+permissions:
+  - 'join group'
+  - 'view group'

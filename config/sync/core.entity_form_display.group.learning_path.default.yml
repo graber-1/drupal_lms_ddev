@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.group.learning_path.field_requires_validation
     - group.type.learning_path
   module:
     - lms
@@ -13,6 +14,13 @@ targetEntityType: group
 bundle: learning_path
 mode: default
 content:
+  field_requires_validation:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   label:
     type: string_textfield
     weight: 0

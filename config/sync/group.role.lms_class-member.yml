@@ -1,0 +1,16 @@
+uuid: 3598d732-cf37-407e-8d92-352d119b4b04
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+    - user.role.authenticated
+id: lms_class-member
+label: Member
+weight: 102
+admin: false
+scope: insider
+global_role: authenticated
+group_type: lms_class
+permissions:
+  - 'view group'

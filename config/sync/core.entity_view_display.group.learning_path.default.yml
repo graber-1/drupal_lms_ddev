@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.group.learning_path.field_requires_validation
     - group.type.learning_path
 _core:
   default_config_hash: sYj1zuZ-GzeVUVZh54Q7m35HmPLWdmIn3AdfXXXMhHE
@@ -11,6 +12,16 @@ targetEntityType: group
 bundle: learning_path
 mode: default
 content:
+  field_requires_validation:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: -4
+    region: content
   label:
     type: string
     label: hidden
