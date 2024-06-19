@@ -1,0 +1,15 @@
+uuid: a980688f-86fe-4f40-b100-8b2e23c7e8e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+    - user.role.lms_admin
+id: learning_path-lms_admin
+label: 'LMS Admin'
+weight: 104
+admin: true
+scope: outsider
+global_role: lms_admin
+group_type: learning_path
+permissions: {  }

@@ -1,0 +1,15 @@
+uuid: 4c1c1d54-9903-4f41-a1ac-f64ab94fde33
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_class
+    - user.role.lms_admin
+id: lms_class-lms_admin
+label: 'LMS Admin'
+weight: 103
+admin: true
+scope: outsider
+global_role: lms_admin
+group_type: lms_class
+permissions: {  }

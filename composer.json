@@ -56,7 +56,7 @@
         }
     },
     "scripts": {
-        "si": "drush site:install -v minimal --existing-config --yes --sites-subdir=default && drush uli",
+        "si": "drush site:install -v minimal --existing-config --yes --sites-subdir=default && drush lms-ctt && drush uli",
         "phpcs": "phpcs -s /var/www/html/web/modules/contrib/lms",
         "phpcbf": "phpcbf /var/www/html/web/modules/contrib/lms",
         "phpstan": "phpstan analyse /var/www/html/web/modules/contrib/lms"

@@ -1,0 +1,23 @@
+uuid: 435d365b-e6ee-4d7e-b6b8-71ae70e0c044
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+  theme:
+    - claro
+id: claro_trainingnavigation
+theme: claro
+region: content
+weight: -2
+provider: null
+plugin: lp_steps_block
+settings:
+  id: lp_steps_block
+  label: 'Training navigation'
+  label_display: '0'
+  provider: lms
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+    group: '@group.group_route_context:group'
+visibility: {  }
