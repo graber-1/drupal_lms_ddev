@@ -6,6 +6,7 @@ dependencies:
     - group
     - lms
     - system
+    - toolbar
 id: lms_admin
 label: 'LMS Admin'
 weight: 2
@@ -13,6 +14,7 @@ is_admin: null
 permissions:
   - 'access administration pages'
   - 'access group overview'
+  - 'access toolbar'
   - 'administer lms'
   - 'create learning_path group'
   - 'create lms_class group'
