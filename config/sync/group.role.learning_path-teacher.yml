@@ -1,0 +1,35 @@
+uuid: bdc77053-c77f-4804-b19c-9c604f683083
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+    - user.role.teacher
+id: learning_path-teacher
+label: Teacher
+weight: 106
+admin: false
+scope: insider
+global_role: teacher
+group_type: learning_path
+permissions:
+  - 'administer members'
+  - 'create ggroup:lms_class relationship'
+  - 'delete any ggroup:lms_class relationship'
+  - 'delete group'
+  - 'delete group revisions'
+  - 'delete own ggroup:lms_class relationship'
+  - 'edit group'
+  - 'leave group'
+  - 'revert group revisions'
+  - 'update any ggroup:lms_class relationship'
+  - 'update own ggroup:lms_class relationship'
+  - 'update own group_membership relationship'
+  - 'view all group revisions'
+  - 'view any unpublished group'
+  - 'view ggroup:lms_class relationship'
+  - 'view group'
+  - 'view group revisions'
+  - 'view group_membership relationship'
+  - 'view latest group version'
+  - 'view own unpublished group'

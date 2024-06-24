@@ -1,0 +1,22 @@
+uuid: 4f342c93-944f-4c47-945e-793f552e0a89
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - lms
+    - system
+    - toolbar
+id: teacher
+label: Teacher
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access group overview'
+  - 'access toolbar'
+  - 'create learning_path group'
+  - 'create lms_activities'
+  - 'create lms_class group'
+  - 'create lms_modules'
+  - 'view the administration theme'

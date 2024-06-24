@@ -14,7 +14,8 @@
 ## Running automated tests
 
 1. `ddev ssh`
-2. `mkdir web/sites/default/files/simpletest/browser_output` (if not already done)
+2. `mkdir web/sites/default/files/simpletest/browser_output`
+   (if not already done)
 3. `phpunit path/to/tests`
 
 
@@ -27,13 +28,16 @@ For single tool analysis of the LMS module execute:
 3. phpstan: `ddev composer phpstan`
 
 
-## Local development
+## Local development & QA
 
 1. `cd web/modules/contrib/lms`
 2. `git remote add your-fork-name your-fork-ssh`
 3. `git pull`
 4. Checkout issue branch, make changes, push to your fork,
    create a merge request.
+
+To create a site with test content already created, run:
+`ddev composer sid`
 
 
 ## PHPMyAdmin
