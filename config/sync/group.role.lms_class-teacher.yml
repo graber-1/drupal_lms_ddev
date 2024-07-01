@@ -4,13 +4,13 @@ status: true
 dependencies:
   config:
     - group.type.lms_class
-    - user.role.teacher
+    - user.role.lms_teacher
 id: lms_class-teacher
 label: Teacher
 weight: 105
 admin: false
 scope: insider
-global_role: teacher
+global_role: lms_teacher
 group_type: lms_class
 permissions:
   - 'administer members'

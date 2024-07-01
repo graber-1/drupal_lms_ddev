@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - user.role.teacher
+    - user.role.lms_teacher
   module:
     - user
 id: user_add_role_action.teacher
-label: 'Add the Teacher role to the selected user(s)'
+label: 'Add the LMS Teacher role to the selected user(s)'
 type: user
 plugin: user_add_role_action
 configuration:

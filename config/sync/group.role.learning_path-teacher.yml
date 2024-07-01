@@ -4,13 +4,13 @@ status: true
 dependencies:
   config:
     - group.type.learning_path
-    - user.role.teacher
+    - user.role.lms_teacher
 id: learning_path-teacher
 label: Teacher
 weight: 106
 admin: false
 scope: insider
-global_role: teacher
+global_role: lms_teacher
 group_type: learning_path
 permissions:
   - 'administer members'
