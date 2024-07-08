@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.group.learning_path.field_requires_validation
-    - group.type.learning_path
+    - field.field.group.lms_course.field_requires_validation
+    - group.type.lms_course
 _core:
   default_config_hash: sYj1zuZ-GzeVUVZh54Q7m35HmPLWdmIn3AdfXXXMhHE
-id: group.learning_path.default
+id: group.lms_course.default
 targetEntityType: group
-bundle: learning_path
+bundle: lms_course
 mode: default
 content:
   field_requires_validation:

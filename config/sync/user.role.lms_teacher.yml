@@ -15,7 +15,7 @@ permissions:
   - 'access administration pages'
   - 'access group overview'
   - 'access toolbar'
-  - 'create learning_path group'
+  - 'create lms_course group'
   - 'create lms_activity entities'
   - 'create lms_class group'
   - 'create lms_module entities'

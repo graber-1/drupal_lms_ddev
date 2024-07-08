@@ -16,6 +16,6 @@ permissions:
   - 'access group overview'
   - 'access toolbar'
   - 'administer lms'
-  - 'create learning_path group'
+  - 'create lms_course group'
   - 'create lms_class group'
   - 'view the administration theme'

@@ -4,13 +4,13 @@ status: true
 dependencies:
   config:
     - field.storage.group_relationship.group_roles
-    - group.relationship_type.learning_path-group_membership
+    - group.relationship_type.lms_course-group_membership
 _core:
   default_config_hash: QIT5pfAkY9_TcwYyWt3nwbVhNA4-ITqMuSrDTpStOrc
-id: group_relationship.learning_path-group_membership.group_roles
+id: group_relationship.lms_course-group_membership.group_roles
 field_name: group_roles
 entity_type: group_relationship
-bundle: learning_path-group_membership
+bundle: lms_course-group_membership
 label: Roles
 description: ''
 required: false
@@ -20,5 +20,5 @@ default_value_callback: ''
 settings:
   handler: 'group_type:group_role'
   handler_settings:
-    group_type_id: learning_path
+    group_type_id: lms_course
 field_type: entity_reference

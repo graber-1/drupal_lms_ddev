@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - group.type.learning_path
+    - group.type.lms_course
 _core:
   default_config_hash: 7cwTLGVZMfgooeYoAoyp7s1HoZR6sU1dEw_StQXqKXc
-id: group.learning_path.label
+id: group.lms_course.label
 field_name: label
 entity_type: group
-bundle: learning_path
+bundle: lms_course
 label: Title
 description: ''
 required: true

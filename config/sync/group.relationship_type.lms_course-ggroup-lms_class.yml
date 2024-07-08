@@ -3,14 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - group.type.learning_path
+    - group.type.lms_course
     - group.type.lms_class
   module:
     - ggroup
 _core:
   default_config_hash: ypwl-SbkOo7eCTiwQ-09zkVpCYJxlKQrkEjRtdVcdQ0
-id: learning_path-ggroup-lms_class
-group_type: learning_path
+id: lms_course-ggroup-lms_class
+group_type: lms_course
 content_plugin: 'ggroup:lms_class'
 plugin_config:
   group_cardinality: 0

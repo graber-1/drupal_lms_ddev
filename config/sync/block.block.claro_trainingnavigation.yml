@@ -11,9 +11,9 @@ theme: claro
 region: content
 weight: -2
 provider: null
-plugin: lp_steps_block
+plugin: course_steps_block
 settings:
-  id: lp_steps_block
+  id: course_steps_block
   label: 'Training navigation'
   label_display: '0'
   provider: lms

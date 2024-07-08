@@ -4,11 +4,11 @@ status: true
 dependencies:
   config:
     - field.storage.group.field_requires_validation
-    - group.type.learning_path
-id: group.learning_path.field_requires_validation
+    - group.type.lms_course
+id: group.lms_course.field_requires_validation
 field_name: field_requires_validation
 entity_type: group
-bundle: learning_path
+bundle: lms_course
 label: 'Requires validation'
 description: 'Does the student need to request access to the learning path?'
 required: false

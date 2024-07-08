@@ -3,14 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - group.type.learning_path
+    - group.type.lms_course
 _core:
   default_config_hash: lovmUykLhZRmqOBLonesNk85x2Dw0Un52GHT9ZKGVT4
-id: learning_path-admin
+id: lms_course-admin
 label: Admin
 weight: 100
 admin: true
 scope: individual
 global_role: null
-group_type: learning_path
+group_type: lms_course
 permissions: {  }

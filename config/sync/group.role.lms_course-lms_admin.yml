@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - group.type.learning_path
+    - group.type.lms_course
     - user.role.lms_admin
-id: learning_path-lms_admin
+id: lms_course-lms_admin
 label: 'LMS Admin'
 weight: 104
 admin: true
 scope: outsider
 global_role: lms_admin
-group_type: learning_path
+group_type: lms_course
 permissions: {  }

@@ -3,15 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - group.type.learning_path
+    - group.type.lms_course
     - user.role.lms_teacher
-id: learning_path-teacher
+id: lms_course-teacher
 label: Teacher
 weight: 106
 admin: false
 scope: insider
 global_role: lms_teacher
-group_type: learning_path
+group_type: lms_course
 permissions:
   - 'administer members'
   - 'create ggroup:lms_class relationship'
