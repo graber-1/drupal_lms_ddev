@@ -38,3 +38,9 @@ stage_file_proxy
 # Node modules and packege.lock
 /node_modules
 package-lock.json
+
+# Deploy script
+/deploy.sh
+
+# Test screenshots
+/test_screenshots/*.jpeg

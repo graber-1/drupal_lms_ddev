@@ -777,3 +777,6 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
     include $app_root . '/' . $site_path . '/settings.local.php';
   }
 }
+elseif (file_exists(__DIR__ . '/settings.remote.php')) {
+  include __DIR__ . '/settings.remote.php';
+}
