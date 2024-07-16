@@ -7,7 +7,7 @@ dependencies:
     - user.role.authenticated
 id: lms_class-member
 label: Member
-weight: 102
+weight: -6
 admin: false
 scope: insider
 global_role: authenticated

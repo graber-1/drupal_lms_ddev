@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: xcDONGP6Nxye8MPHY5GpTif8r1NuEUUPZjm1ZPvqeZQ
 id: lms_course
-label: 'Course'
+label: Course
 description: ''
 new_revision: true
 creator_membership: true

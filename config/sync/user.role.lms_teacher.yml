@@ -8,15 +8,15 @@ dependencies:
     - system
     - toolbar
 id: lms_teacher
-label: LMS Teacher
+label: 'LMS Teacher'
 weight: 3
 is_admin: null
 permissions:
   - 'access administration pages'
   - 'access group overview'
   - 'access toolbar'
-  - 'create lms_course group'
   - 'create lms_activity entities'
   - 'create lms_class group'
-  - 'create lms_module entities'
+  - 'create lms_course group'
+  - 'create lms_lesson entities'
   - 'view the administration theme'

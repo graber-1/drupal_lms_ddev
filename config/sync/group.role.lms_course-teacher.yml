@@ -7,7 +7,7 @@ dependencies:
     - user.role.lms_teacher
 id: lms_course-teacher
 label: Teacher
-weight: 106
+weight: -7
 admin: false
 scope: insider
 global_role: lms_teacher

@@ -14,8 +14,9 @@ is_admin: null
 permissions:
   - 'access administration pages'
   - 'access group overview'
+  - 'access site in maintenance mode'
   - 'access toolbar'
   - 'administer lms'
-  - 'create lms_course group'
   - 'create lms_class group'
+  - 'create lms_course group'
   - 'view the administration theme'

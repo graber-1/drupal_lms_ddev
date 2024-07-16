@@ -7,7 +7,7 @@ dependencies:
     - user.role.authenticated
 id: lms_course-outsider
 label: Outsider
-weight: 101
+weight: -6
 admin: false
 scope: outsider
 global_role: authenticated

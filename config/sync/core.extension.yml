@@ -2,8 +2,10 @@ _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
   admin_toolbar: 0
+  admin_toolbar_tools: 0
   block: 0
   breakpoint: 0
+  contextual: 0
   dblog: 0
   dynamic_page_cache: 0
   entity: 0
@@ -34,4 +36,5 @@ module:
 theme:
   stark: 0
   claro: 0
+  olivero: 0
 profile: minimal

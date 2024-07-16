@@ -8,7 +8,7 @@ _core:
   default_config_hash: YyuoeRBb5R3bGB2GMHFvZzZFHj1PTpM3BnjYdW0cpvY
 id: lms_class-admin
 label: Admin
-weight: 100
+weight: -8
 admin: true
 scope: individual
 global_role: null

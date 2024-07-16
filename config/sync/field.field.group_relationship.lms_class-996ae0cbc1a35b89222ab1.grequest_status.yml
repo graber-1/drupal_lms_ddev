@@ -1,0 +1,23 @@
+uuid: a0c1a135-efb1-492a-a8f3-57ada9e9a96d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group_relationship.grequest_status
+    - group.relationship_type.lms_class-996ae0cbc1a35b89222ab1
+  module:
+    - state_machine
+id: group_relationship.lms_class-996ae0cbc1a35b89222ab1.grequest_status
+field_name: grequest_status
+entity_type: group_relationship
+bundle: lms_class-996ae0cbc1a35b89222ab1
+label: 'Request status'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  workflow: request
+  workflow_callback: ''
+field_type: state

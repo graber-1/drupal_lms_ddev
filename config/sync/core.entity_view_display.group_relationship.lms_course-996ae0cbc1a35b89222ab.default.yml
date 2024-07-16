@@ -1,0 +1,33 @@
+uuid: e21152a0-02b5-417c-bc74-5519bd95c245
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.lms_course-996ae0cbc1a35b89222ab.grequest_status
+    - field.field.group_relationship.lms_course-996ae0cbc1a35b89222ab.grequest_updated_by
+    - group.relationship_type.lms_course-996ae0cbc1a35b89222ab
+  module:
+    - options
+id: group_relationship.lms_course-996ae0cbc1a35b89222ab.default
+targetEntityType: group_relationship
+bundle: lms_course-996ae0cbc1a35b89222ab
+mode: default
+content:
+  grequest_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  grequest_updated_by:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+hidden:
+  entity_id: true
+  uid: true

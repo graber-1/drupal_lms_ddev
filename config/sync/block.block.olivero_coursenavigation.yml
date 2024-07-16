@@ -1,20 +1,20 @@
-uuid: 435d365b-e6ee-4d7e-b6b8-71ae70e0c044
+uuid: 2b509010-ab56-4a58-b4c4-f88b68de29fd
 langcode: en
 status: true
 dependencies:
   module:
     - lms
   theme:
-    - claro
-id: claro_trainingnavigation
-theme: claro
-region: content
-weight: -2
+    - olivero
+id: olivero_coursenavigation
+theme: olivero
+region: sidebar
+weight: 0
 provider: null
 plugin: course_steps_block
 settings:
   id: course_steps_block
-  label: 'Training navigation'
+  label: 'Course navigation'
   label_display: '0'
   provider: lms
   context_mapping:

@@ -1,0 +1,33 @@
+uuid: 42478644-fff2-4b73-a9b5-bdf265dcd6c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.lms_class-996ae0cbc1a35b89222ab1.grequest_status
+    - field.field.group_relationship.lms_class-996ae0cbc1a35b89222ab1.grequest_updated_by
+    - group.relationship_type.lms_class-996ae0cbc1a35b89222ab1
+  module:
+    - options
+id: group_relationship.lms_class-996ae0cbc1a35b89222ab1.default
+targetEntityType: group_relationship
+bundle: lms_class-996ae0cbc1a35b89222ab1
+mode: default
+content:
+  grequest_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  grequest_updated_by:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+hidden:
+  entity_id: true
+  uid: true

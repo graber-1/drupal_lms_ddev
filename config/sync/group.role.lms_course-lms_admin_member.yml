@@ -1,15 +1,15 @@
-uuid: a980688f-86fe-4f40-b100-8b2e23c7e8e8
+uuid: 18a99cb2-63a0-459e-a1bf-a79196275fcf
 langcode: en
 status: true
 dependencies:
   config:
     - group.type.lms_course
     - user.role.lms_admin
-id: lms_course-lms_admin
-label: 'LMS Admin'
-weight: -10
+id: lms_course-lms_admin_member
+label: 'LMS Admin member'
+weight: -9
 admin: true
-scope: outsider
+scope: insider
 global_role: lms_admin
 group_type: lms_course
 permissions: {  }

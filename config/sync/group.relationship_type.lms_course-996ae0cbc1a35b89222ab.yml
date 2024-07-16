@@ -1,0 +1,17 @@
+uuid: 1c6375ef-8e53-4315-a1a1-6aa81a8c674e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_course
+  module:
+    - grequest
+    - user
+id: lms_course-996ae0cbc1a35b89222ab
+group_type: lms_course
+content_plugin: group_membership_request
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false
+  remove_group_membership_request: true
