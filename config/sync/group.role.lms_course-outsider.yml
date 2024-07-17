@@ -14,4 +14,5 @@ global_role: authenticated
 group_type: lms_course
 permissions:
   - 'join group'
+  - 'request group membership'
   - 'view group'
