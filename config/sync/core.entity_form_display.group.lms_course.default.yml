@@ -21,6 +21,20 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
+  free_navigation:
+    type: boolean_checkbox
+    weight: 28
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  hide_for_anonymous:
+    type: boolean_checkbox
+    weight: 31
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   label:
     type: string_textfield
     weight: 0
@@ -39,6 +53,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  membership_validation:
+    type: boolean_checkbox
+    weight: 29
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   modules:
     type: lms_reference
     weight: 3
@@ -48,6 +69,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  private:
+    type: boolean_checkbox
+    weight: 30
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   revisit_mode:
     type: boolean_checkbox
