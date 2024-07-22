@@ -1,0 +1,16 @@
+uuid: e678cc87-2268-4db2-9882-70718903f7fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.lms_course
+    - user.role.anonymous
+id: lms_course-anonymous
+label: Anonymous
+weight: -5
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: lms_course
+permissions:
+  - 'view group'
