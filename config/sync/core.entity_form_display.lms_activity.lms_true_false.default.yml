@@ -1,0 +1,51 @@
+uuid: 4dd90b54-2a35-4a64-b118-1f916b42bc4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.lms_true_false.bool_expected
+    - field.field.lms_activity.lms_true_false.description
+    - field.field.lms_activity.lms_true_false.question
+    - lms.lms_activity_type.lms_true_false
+  module:
+    - text
+_core:
+  default_config_hash: JLAevDV3ausud_ZfLSDzDpqUGYCFAlenNw1vemXQxOw
+id: lms_activity.lms_true_false.default
+targetEntityType: lms_activity
+bundle: lms_true_false
+mode: default
+content:
+  bool_expected:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  description:
+    type: string_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  question:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

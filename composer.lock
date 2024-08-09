@@ -2100,7 +2100,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "947858af6aee2db349143e7d906db1e425b18cd6"
+                "reference": "33cf137cdf0e77187781c683455c6aeb62b3c7aa"
             },
             "require": {
                 "drupal/core": "^10.2 || ^11",
@@ -2115,7 +2115,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1721913998",
+                    "datestamp": "1723211919",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2137,7 +2137,7 @@
                     "homepage": "https://www.drupal.org/user/35733"
                 },
                 {
-                    "name": "Graber",
+                    "name": "graber",
                     "homepage": "https://www.drupal.org/user/1599440"
                 }
             ],

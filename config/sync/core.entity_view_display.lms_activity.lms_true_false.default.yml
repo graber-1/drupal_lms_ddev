@@ -1,0 +1,30 @@
+uuid: 1a2e8cf8-51c3-4c62-b2d9-54c555a87631
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.lms_true_false.bool_expected
+    - field.field.lms_activity.lms_true_false.description
+    - field.field.lms_activity.lms_true_false.question
+    - lms.lms_activity_type.lms_true_false
+  module:
+    - text
+_core:
+  default_config_hash: oL2P-gBZJixMgv6ukaOvI-qSounhcKB3rd6lABJe4ag
+id: lms_activity.lms_true_false.default
+targetEntityType: lms_activity
+bundle: lms_true_false
+mode: default
+content:
+  question:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  bool_expected: true
+  description: true
+  name: true
+  uid: true
