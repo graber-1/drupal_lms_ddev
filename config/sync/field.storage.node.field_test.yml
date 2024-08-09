@@ -1,0 +1,18 @@
+uuid: cf4f93ab-55a7-4ed3-8c9a-14df8a33037f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_test
+field_name: field_test
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

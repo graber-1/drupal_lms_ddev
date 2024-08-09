@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_test
     - node.type.page
   module:
     - text
@@ -19,6 +20,25 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_test:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: long
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }
