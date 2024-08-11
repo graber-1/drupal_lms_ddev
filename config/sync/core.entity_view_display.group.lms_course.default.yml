@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.group.lms_course.field_requires_validation
     - group.type.lms_course
 _core:
   default_config_hash: sYj1zuZ-GzeVUVZh54Q7m35HmPLWdmIn3AdfXXXMhHE
@@ -23,5 +22,4 @@ content:
 hidden:
   changed: true
   created: true
-  field_requires_validation: true
   uid: true

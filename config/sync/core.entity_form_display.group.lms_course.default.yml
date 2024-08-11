@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.group.lms_course.field_requires_validation
     - group.type.lms_course
   module:
     - lms
@@ -14,13 +13,6 @@ targetEntityType: group
 bundle: lms_course
 mode: default
 content:
-  field_requires_validation:
-    type: boolean_checkbox
-    weight: 26
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
   free_navigation:
     type: boolean_checkbox
     weight: 28
