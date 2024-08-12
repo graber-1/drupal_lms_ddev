@@ -18,8 +18,8 @@
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
-        "drupal/core": "^10.2",
-        "drupal/core-composer-scaffold": "^10.2",
+        "drupal/core": "^10.3",
+        "drupal/core-composer-scaffold": "^10.3",
         "drupal/devel": "^5.2",
         "drupal/ggroup": "^3.0@alpha",
         "drupal/grequest": "^3.2",
@@ -30,6 +30,7 @@
     },
     "require-dev": {
         "chi-teck/drupal-coder-extension": "^1.2",
+        "claudiu-cristea/drupal-dependencies": "1.x-dev",
         "drupal/config_inspector": "^2.1",
         "drupal/core-dev": "^10.2",
         "drupal/developer_console": "^1.0@dev",
