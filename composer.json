@@ -20,9 +20,6 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/core": "^10.3",
         "drupal/core-composer-scaffold": "^10.3",
-        "drupal/ggroup": "^3.0@alpha",
-        "drupal/grequest": "^3.2",
-        "drupal/group": "^3.2",
         "drupal/lms": "1.0.x-dev",
         "drupal/views_bulk_operations": "4.2.x-dev",
         "drush/drush": "^12.0"
