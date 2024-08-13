@@ -1649,7 +1649,7 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "LOBsTerr",
+                    "name": "lobsterr",
                     "homepage": "https://www.drupal.org/user/645020"
                 }
             ],
@@ -1710,31 +1710,31 @@
         },
         {
             "name": "drupal/group",
-            "version": "3.2.2",
+            "version": "dev-3.3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/group.git",
-                "reference": "3.2.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/group-3.2.2.zip",
-                "reference": "3.2.2",
-                "shasum": "d44d51828ca6554c32aa2d27e3a898e1d38b9efa"
+                "reference": "33c5059efc9bdb905732fa3d205056ced3d386fa"
             },
             "require": {
-                "drupal/core": "^9.5 || ^10",
+                "drupal/core": "^10.3",
                 "drupal/entity": "^1.2",
                 "drupal/flexible_permissions": "^1.0"
             },
+            "require-dev": {
+                "jangregor/phpstan-prophecy": "^1.0"
+            },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-3.3.x": "3.3.x-dev"
+                },
                 "drupal": {
-                    "version": "3.2.2",
-                    "datestamp": "1701886939",
+                    "version": "3.3.x-dev",
+                    "datestamp": "1716817165",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1766,13 +1766,13 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "b7970d1e6b0fa3901235697b51a53dd5b3997c4a"
+                "reference": "885da0a704e862c990ef33909d525d75a4084302"
             },
             "require": {
-                "drupal/core": "^10.2 || ^11",
+                "drupal/core": "^10.3 || ^11",
                 "drupal/ggroup": "^3.0@alpha",
                 "drupal/grequest": "^3.2",
-                "drupal/group": "^3.0"
+                "drupal/group": "^3.3"
             },
             "type": "drupal-module",
             "extra": {
@@ -1781,7 +1781,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1723461961",
+                    "datestamp": "1723535124",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
