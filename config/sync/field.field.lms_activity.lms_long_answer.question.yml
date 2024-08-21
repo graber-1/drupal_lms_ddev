@@ -1,0 +1,22 @@
+uuid: ea5e0d1d-be08-475d-9302-31482c958ed1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.question
+    - lms.lms_activity_type.lms_long_answer
+  module:
+    - text
+id: lms_activity.lms_long_answer.question
+field_name: question
+entity_type: lms_activity
+bundle: lms_long_answer
+label: Question
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

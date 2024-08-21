@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.lms_activity.lms_long_answer.description
+    - field.field.lms_activity.lms_long_answer.question
     - lms.lms_activity_type.lms_long_answer
+  module:
+    - text
 _core:
   default_config_hash: MbdtHAv_CN2VjRBKRgd2QTFAAN3geyMeNY8FTm79gzM
 id: lms_activity.lms_long_answer.default
@@ -12,15 +15,9 @@ targetEntityType: lms_activity
 bundle: lms_long_answer
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   description:
     type: string_textarea
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 3
@@ -34,14 +31,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 2
+  question:
+    type: text_textarea
+    weight: 1
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  uid: true

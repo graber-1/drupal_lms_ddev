@@ -19,6 +19,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  start_link:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
 hidden:
   changed: true
   created: true

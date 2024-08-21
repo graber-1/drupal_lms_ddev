@@ -4,14 +4,24 @@ status: true
 dependencies:
   config:
     - field.field.lms_activity.lms_long_answer.description
+    - field.field.lms_activity.lms_long_answer.question
     - lms.lms_activity_type.lms_long_answer
+  module:
+    - text
 _core:
   default_config_hash: MEWDiEs_Wh7WldvlijbNE8eQ2GUNtGneJkYMBj5tvsE
 id: lms_activity.lms_long_answer.default
 targetEntityType: lms_activity
 bundle: lms_long_answer
 mode: default
-content: {  }
+content:
+  question:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   description: true
   name: true

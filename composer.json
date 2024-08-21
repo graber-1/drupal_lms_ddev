@@ -56,7 +56,7 @@
     "scripts": {
         "si": "drush site:install -v minimal --existing-config --yes --sites-subdir=default",
         "sid": "drush site:install -v minimal --existing-config --yes --sites-subdir=default && drush lms-ctt --simple-passwords && drush en -y developer_console && drush uli",
-        "test-environment": "drush si minimal && drush thin claro && drush cset system.theme default claro -y && pm:install lms -y",
+        "test-environment": "drush si minimal --yes && drush thin claro && drush cset system.theme default claro -y && drush pm:install lms -y",
         "phpcs": "phpcs -s /var/www/html/web/modules/contrib/lms",
         "phpcbf": "phpcbf /var/www/html/web/modules/contrib/lms",
         "phpstan": "phpstan analyse /var/www/html/web/modules/contrib/lms"
