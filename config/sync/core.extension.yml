@@ -17,6 +17,7 @@ module:
   grequest: 0
   group: 0
   lms: 0
+  lms_answer_plugins: 0
   mysql: 0
   node: 0
   options: 0

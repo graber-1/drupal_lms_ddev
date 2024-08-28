@@ -7,3 +7,4 @@ _core:
 id: lms_long_answer
 name: 'Long answer'
 description: null
+pluginId: lms_long_answer

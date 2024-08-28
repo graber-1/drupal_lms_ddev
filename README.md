@@ -16,7 +16,7 @@
 1. `ddev ssh`
 2. `mkdir web/sites/default/files/simpletest/browser_output`
    (if not already done)
-3. `phpunit path/to/tests`
+3. `composer test`
 
 
 ## Code analysis tools
@@ -39,7 +39,5 @@ For single tool analysis of the LMS module execute:
 To create a site with test content already created, run:
 `ddev composer sid`
 
-
-## PHPMyAdmin
-
-Accessible from http://ddev-demo.ddev.site:8036/
+To create a site with the initial state of functional JS tests, run:
+`ddev composer test-environment`

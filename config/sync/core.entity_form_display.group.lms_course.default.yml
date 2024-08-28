@@ -62,13 +62,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  private:
-    type: boolean_checkbox
-    weight: 30
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
   revisit_mode:
     type: boolean_checkbox
     weight: 2
