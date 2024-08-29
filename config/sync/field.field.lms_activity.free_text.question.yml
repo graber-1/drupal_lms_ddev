@@ -4,13 +4,13 @@ status: true
 dependencies:
   config:
     - field.storage.lms_activity.question
-    - lms.lms_activity_type.lms_long_answer
+    - lms.lms_activity_type.free_text
   module:
     - text
-id: lms_activity.lms_long_answer.question
+id: lms_activity.free_text.question
 field_name: question
 entity_type: lms_activity
-bundle: lms_long_answer
+bundle: free_text
 label: Question
 description: ''
 required: true

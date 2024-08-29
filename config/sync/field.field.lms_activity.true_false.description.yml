@@ -1,16 +1,16 @@
-uuid: 0727d63a-a473-4f62-9908-a31382066855
+uuid: be45cd0a-5595-4fae-a9f6-f5df25b27e3a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.lms_activity.description
-    - lms.lms_activity_type.lms_long_answer
+    - lms.lms_activity_type.true_false
 _core:
-  default_config_hash: 4hBUrQDCnSqqTnFwOckaPumu2vKQ8GgRuK6cSP8Qypk
-id: lms_activity.lms_long_answer.description
+  default_config_hash: AWAl0Rmddglg5upE_4YxedmJJXle0Cv-nkZBzxeyP24
+id: lms_activity.true_false.description
 field_name: description
 entity_type: lms_activity
-bundle: lms_long_answer
+bundle: true_false
 label: Description
 description: ''
 required: false

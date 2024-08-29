@@ -3,16 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.lms_long_answer.description
-    - field.field.lms_activity.lms_long_answer.question
-    - lms.lms_activity_type.lms_long_answer
+    - field.field.lms_activity.free_text.description
+    - field.field.lms_activity.free_text.question
+    - lms.lms_activity_type.free_text
   module:
     - text
 _core:
   default_config_hash: MEWDiEs_Wh7WldvlijbNE8eQ2GUNtGneJkYMBj5tvsE
-id: lms_activity.lms_long_answer.default
+id: lms_activity.free_text.default
 targetEntityType: lms_activity
-bundle: lms_long_answer
+bundle: free_text
 mode: default
 content:
   question:

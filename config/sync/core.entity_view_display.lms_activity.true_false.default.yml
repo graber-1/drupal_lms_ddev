@@ -3,17 +3,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.lms_true_false.bool_expected
-    - field.field.lms_activity.lms_true_false.description
-    - field.field.lms_activity.lms_true_false.question
-    - lms.lms_activity_type.lms_true_false
+    - field.field.lms_activity.true_false.bool_expected
+    - field.field.lms_activity.true_false.description
+    - field.field.lms_activity.true_false.question
+    - lms.lms_activity_type.true_false
   module:
     - text
 _core:
   default_config_hash: oL2P-gBZJixMgv6ukaOvI-qSounhcKB3rd6lABJe4ag
-id: lms_activity.lms_true_false.default
+id: lms_activity.true_false.default
 targetEntityType: lms_activity
-bundle: lms_true_false
+bundle: true_false
 mode: default
 content:
   question:

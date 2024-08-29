@@ -4,15 +4,15 @@ status: true
 dependencies:
   config:
     - field.storage.lms_activity.question
-    - lms.lms_activity_type.lms_true_false
+    - lms.lms_activity_type.true_false
   module:
     - text
 _core:
   default_config_hash: wCM6T3oBX5fo9NgXicodrWd-de9-SCF8Cy4zXkTRQ-Y
-id: lms_activity.lms_true_false.question
+id: lms_activity.true_false.question
 field_name: question
 entity_type: lms_activity
-bundle: lms_true_false
+bundle: true_false
 label: Question
 description: ''
 required: true

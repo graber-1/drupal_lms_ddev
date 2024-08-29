@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: zcKQahKwYlmCFE5BqzznQuzrols-igaIhWNyGITezeM
-id: lms_true_false
+id: true_false
 name: 'True / false question'
 description: null
-pluginId: lms_true_false
+pluginId: true_false

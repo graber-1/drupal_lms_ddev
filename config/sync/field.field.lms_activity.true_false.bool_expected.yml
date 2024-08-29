@@ -4,13 +4,13 @@ status: true
 dependencies:
   config:
     - field.storage.lms_activity.bool_expected
-    - lms.lms_activity_type.lms_true_false
+    - lms.lms_activity_type.true_false
 _core:
   default_config_hash: n_YmG4-vJ03AS684tOOejyccOXu6fpwRbX8lPeUxavw
-id: lms_activity.lms_true_false.bool_expected
+id: lms_activity.true_false.bool_expected
 field_name: bool_expected
 entity_type: lms_activity
-bundle: lms_true_false
+bundle: true_false
 label: 'Correct answer'
 description: ''
 required: true

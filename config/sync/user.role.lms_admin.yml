@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - field_ui
     - group
     - lms
     - system
@@ -18,6 +19,9 @@ permissions:
   - 'access site reports'
   - 'access toolbar'
   - 'administer lms'
+  - 'administer lms_activity display'
+  - 'administer lms_activity fields'
+  - 'administer lms_activity form display'
   - 'administer users'
   - 'create lms_class group'
   - 'create lms_course group'

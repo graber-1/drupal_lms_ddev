@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: uxGLth5NBRTcf2sm6znOq9S_YXGoMnllmhbQgiG3jXk
-id: lms_long_answer
-name: 'Long answer'
+id: free_text
+name: 'Free text'
 description: null
-pluginId: lms_long_answer
+pluginId: free_text
