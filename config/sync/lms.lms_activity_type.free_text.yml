@@ -8,3 +8,4 @@ id: free_text
 name: 'Free text'
 description: null
 pluginId: free_text
+defaultMaxScore: 5

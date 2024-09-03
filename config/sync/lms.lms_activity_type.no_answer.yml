@@ -6,3 +6,4 @@ id: no_answer
 name: 'No answer'
 description: ''
 pluginId: no_answer
+defaultMaxScore: 5

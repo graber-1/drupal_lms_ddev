@@ -8,3 +8,4 @@ id: true_false
 name: 'True / false question'
 description: null
 pluginId: true_false
+defaultMaxScore: 5
