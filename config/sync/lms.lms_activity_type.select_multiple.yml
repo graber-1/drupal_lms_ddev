@@ -1,0 +1,9 @@
+uuid: c320963a-37f1-43d7-8e4e-b38321ea6048
+langcode: en
+status: true
+dependencies: {  }
+id: select_multiple
+name: 'Select multiple'
+description: ''
+pluginId: select_multiple
+defaultMaxScore: 5

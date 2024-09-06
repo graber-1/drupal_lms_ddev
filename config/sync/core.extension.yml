@@ -11,11 +11,13 @@ module:
   entity: 0
   field: 0
   field_ui: 0
+  file: 0
   filter: 0
   flexible_permissions: 0
   ggroup: 0
   grequest: 0
   group: 0
+  image: 0
   lms: 0
   lms_answer_plugins: 0
   mysql: 0

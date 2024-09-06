@@ -1,0 +1,26 @@
+uuid: 144eeb2f-958e-4254-8f61-9a427c1be8c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.select_multiple.answers
+    - field.field.lms_activity.select_multiple.question
+    - lms.lms_activity_type.select_multiple
+  module:
+    - text
+id: lms_activity.select_multiple.default
+targetEntityType: lms_activity
+bundle: select_multiple
+mode: default
+content:
+  question:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  answers: true
+  name: true
+  uid: true

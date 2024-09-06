@@ -1,0 +1,9 @@
+uuid: 82bf0571-f158-4fb6-9197-7d7990cdac94
+langcode: en
+status: true
+dependencies: {  }
+id: select_single
+name: 'Select single'
+description: ''
+pluginId: select_single
+defaultMaxScore: 5

@@ -1,0 +1,41 @@
+uuid: 010655c9-c8fb-4de0-aa3e-3139451a1427
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.select_multiple.answers
+    - field.field.lms_activity.select_multiple.question
+    - lms.lms_activity_type.select_multiple
+  module:
+    - lms_answer_plugins
+    - text
+id: lms_activity.select_multiple.default
+targetEntityType: lms_activity
+bundle: select_multiple
+mode: default
+content:
+  answers:
+    type: lms_answer
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  question:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

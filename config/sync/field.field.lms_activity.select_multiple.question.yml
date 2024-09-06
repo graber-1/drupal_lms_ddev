@@ -1,0 +1,24 @@
+uuid: 7ef81ed8-da05-4b1a-a38c-c1780c14a10c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.question
+    - lms.lms_activity_type.select_multiple
+  module:
+    - text
+_core:
+  default_config_hash: EUXmejPwiDbJlY9uyNc5iri_Qv-_I7mFA-Sd133VlG8
+id: lms_activity.select_multiple.question
+field_name: question
+entity_type: lms_activity
+bundle: select_multiple
+label: Question
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

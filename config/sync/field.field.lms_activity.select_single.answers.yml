@@ -1,0 +1,23 @@
+uuid: a95823e6-6753-4a4b-8349-16962bd60ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.answers
+    - lms.lms_activity_type.select_single
+  module:
+    - lms_answer_plugins
+_core:
+  default_config_hash: 8FKb2Y1rI_souaNVjBZbDoQ0GIWaaScOErK4kJpi_DU
+id: lms_activity.select_single.answers
+field_name: answers
+entity_type: lms_activity
+bundle: select_single
+label: Answers
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: lms_answer

@@ -40,7 +40,7 @@ stage_file_proxy
 package-lock.json
 
 # Deploy script
-/deploy.sh
+/deploy*.sh
 
 # Test screenshots
 /test_screenshots/*.jpeg
