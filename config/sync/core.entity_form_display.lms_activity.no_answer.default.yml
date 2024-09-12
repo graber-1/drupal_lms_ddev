@@ -1,0 +1,48 @@
+uuid: 545a3137-00d6-43a8-b466-c748f5276670
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.no_answer.field_image
+    - image.style.thumbnail
+    - lms.lms_activity_type.no_answer
+  module:
+    - image
+id: lms_activity.no_answer.default
+targetEntityType: lms_activity
+bundle: no_answer
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

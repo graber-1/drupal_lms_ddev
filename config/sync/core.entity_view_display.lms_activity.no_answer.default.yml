@@ -1,0 +1,43 @@
+uuid: 6f2bb23c-81fa-41ee-a287-ce104a59c0ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.no_answer.field_image
+    - image.style.wide
+    - lms.lms_activity_type.no_answer
+  module:
+    - image
+    - user
+id: lms_activity.no_answer.default
+targetEntityType: lms_activity
+bundle: no_answer
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
