@@ -21,7 +21,7 @@
         "drupal/core": "^10.3",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/lms": "1.0.x-dev",
-        "drupal/views_bulk_operations": "4.2.x-dev",
+        "drupal/views_bulk_operations": "4.3.0-beta2",
         "drush/drush": "^12.0"
     },
     "require-dev": {
