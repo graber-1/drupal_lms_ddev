@@ -10,5 +10,4 @@ description: ''
 new_revision: true
 creator_membership: false
 creator_wizard: false
-creator_roles:
-  - lms_class-admin
+creator_roles: {  }

@@ -9,7 +9,7 @@ dependencies:
     - group
     - user
 id: lms_courses
-label: Courses
+label: 'Courses (admin)'
 module: views
 description: ''
 tag: ''
