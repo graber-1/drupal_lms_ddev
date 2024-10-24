@@ -19,6 +19,7 @@ module:
   image: 0
   lms: 0
   lms_answer_plugins: 0
+  lms_membership_request: 0
   mysql: 0
   node: 0
   options: 0
@@ -30,7 +31,6 @@ module:
   toolbar: 0
   update: 0
   user: 0
-  variationcache: 0
   views_bulk_operations: 0
   views_ui: 0
   views: 10

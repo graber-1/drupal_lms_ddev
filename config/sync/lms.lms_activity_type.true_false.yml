@@ -6,6 +6,6 @@ _core:
   default_config_hash: zcKQahKwYlmCFE5BqzznQuzrols-igaIhWNyGITezeM
 id: true_false
 name: 'True / false question'
-description: null
+description: ''
 pluginId: true_false
 defaultMaxScore: 5
