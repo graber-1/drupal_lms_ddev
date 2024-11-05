@@ -6,7 +6,7 @@ dependencies:
     - lms
   theme:
     - olivero
-id: olivero_coursenavigation
+id: olivero_course_navigation
 theme: olivero
 region: sidebar
 weight: 0
