@@ -61,7 +61,7 @@
         "test": "rm web/sites/simpletest/browser_output/*; phpunit web/modules/contrib/lms/",
         "phpcs": "phpcs -s /var/www/html/web/modules/contrib/lms",
         "phpcbf": "phpcbf /var/www/html/web/modules/contrib/lms",
-        "phpstan": "phpstan analyse /var/www/html/web/modules/contrib/lms"
+        "phpstan": "phpstan analyse /var/www/html/web/modules/contrib/lms -c /var/www/html/web/modules/contrib/lms/phpstan.neon"
     },
     "extra": {
         "drupal-scaffold": {
