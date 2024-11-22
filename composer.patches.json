@@ -1,7 +1,3 @@
 {
-  "patches": {
-    "drupal/group" : {
-      "403 VBO error (3020883)": "https://www.drupal.org/files/issues/2024-06-04/group-3020883-51.patch"
-    }
-  }
+  "patches": {}
 }
