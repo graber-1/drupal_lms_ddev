@@ -20,6 +20,8 @@ module:
   lms: 0
   lms_answer_plugins: 0
   lms_membership_request: 0
+  lms_xapi: 0
+  lms_xapi_lesson: 0
   mysql: 0
   node: 0
   options: 0
