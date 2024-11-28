@@ -55,6 +55,9 @@
             "cweagans/composer-patches": true,
             "php-http/discovery": true,
             "tbachert/spi": true
+        },
+        "platform": {
+            "php": "8.1"
         }
     },
     "scripts": {
