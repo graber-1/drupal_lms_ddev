@@ -1,0 +1,5 @@
+name: LRS XAPI
+type: module
+description: An Xapi LRS server.
+core_version_requirement: ^10.3 || ^11
+package: LMS
