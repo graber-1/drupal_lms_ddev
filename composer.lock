@@ -1822,7 +1822,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_xapi.git",
-                "reference": "ad2f8693ef2a65d46d25e68a60a48192f78cdf4c"
+                "reference": "464cb6115ec31f2ebe10dc1ab1962f0b0206dd13"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1838,7 +1838,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1733323179",
+                    "datestamp": "1733323727",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
