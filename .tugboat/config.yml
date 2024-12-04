@@ -82,12 +82,11 @@ services:
       # and update steps, because the results of those are inherited
       # from the base preview.
       build:
-        # Reinstall the site.
-        # Install/update packages managed by composer, including drush and Stage File Proxy.
+        # Install/update packages managed by composer.
         - composer install --optimize-autoloader
-        - vendor/bin/drush site:install -v minimal --existing-config --yes --sites-subdir=default
-        - vendor/bin/drush lms-ctt --simple-passwords
 
       start:
+        # Reinstall the site with default test content.
+        - vendor/bin/drush site:install -v minimal --existing-config --yes --sites-subdir=default
+        - vendor/bin/drush lms-ctt --simple-passwords
         - vendor/bin/drush uli
-        
