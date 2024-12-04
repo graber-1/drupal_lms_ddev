@@ -1,0 +1,3 @@
+endpoint: 'https://lms.ddev.site/lrs/endpoint'
+username: user
+password: password
