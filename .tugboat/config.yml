@@ -84,6 +84,7 @@ services:
       build:
         # Install/update packages managed by composer.
         - composer install --optimize-autoloader
+        - composer update
 
       start:
         # Reinstall the site with default test content.

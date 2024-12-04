@@ -51,7 +51,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "phpstan/extension-installer": true,
             "cweagans/composer-patches": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "tbachert/spi": true
         }
     },
     "scripts": {
