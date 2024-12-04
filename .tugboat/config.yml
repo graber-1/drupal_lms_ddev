@@ -48,6 +48,10 @@ services:
         # to the docroot.
         - ln -snf "${TUGBOAT_ROOT}/web" "${DOCROOT}"
 
+        # Increase maximum upload file size.
+        - echo "upload_max_filesize = 40M" >> /usr/local/etc/php/conf.d/tugboat.ini
+        - echo "post_max_size = 40M" >> /usr/local/etc/php/conf.d/tugboat.ini
+
         # Create any required directories that don't exist.
         # - mkdir -p "${TUGBOAT_ROOT}/files-private"
 
@@ -83,4 +87,7 @@ services:
         - composer install --optimize-autoloader
         - vendor/bin/drush site:install -v minimal --existing-config --yes --sites-subdir=default
         - vendor/bin/drush lms-ctt --simple-passwords
+
+      start:
         - vendor/bin/drush uli
+        
