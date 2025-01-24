@@ -36,14 +36,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   lessons:
-    type: lms_reference
+    type: lms_reference_table
     weight: 27
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      view_data: lessons_selection.default
     third_party_settings: {  }
   membership_validation:
     type: boolean_checkbox
