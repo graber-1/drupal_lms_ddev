@@ -1,0 +1,26 @@
+uuid: ead4698f-fbdc-4167-a99b-5d5115c029cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - lms
+    - lms_xapi
+_core:
+  default_config_hash: pRi9aDrp9oH9FIgFTx8paJaXUY1oj4RRZDkhqAKs2Kk
+id: lms_activity.field_xapi_package
+field_name: field_xapi_package
+entity_type: lms_activity
+type: lms_xapi
+settings:
+  display_field: 0
+  display_default: 0
+  uri_scheme: public
+  target_type: file
+module: lms_xapi
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

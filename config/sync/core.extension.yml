@@ -21,6 +21,7 @@ module:
   lms_answer_plugins: 0
   lms_membership_request: 0
   lms_xapi: 0
+  lms_xapi_activity: 0
   lms_xapi_lesson: 0
   lrs_xapi: 0
   mysql: 0
