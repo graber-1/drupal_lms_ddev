@@ -1,0 +1,9 @@
+uuid: c34de68e-93bd-4b4d-875d-081034f63549
+langcode: en
+status: true
+dependencies: {  }
+id: true_false_feedback
+name: 'True / false with feedback'
+description: ''
+pluginId: true_false_feedback
+defaultMaxScore: 5

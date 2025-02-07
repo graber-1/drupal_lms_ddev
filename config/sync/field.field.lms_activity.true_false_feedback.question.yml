@@ -1,0 +1,24 @@
+uuid: bc8c4bfe-d95d-445e-9191-7e040676c40d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.question
+    - lms.lms_activity_type.true_false_feedback
+  module:
+    - text
+_core:
+  default_config_hash: h-vQdshJUNclAx575UvKWOBoYNREUzRmu_66ZjAfMG4
+id: lms_activity.true_false_feedback.question
+field_name: question
+entity_type: lms_activity
+bundle: true_false_feedback
+label: Question
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
