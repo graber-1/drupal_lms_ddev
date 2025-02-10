@@ -1719,7 +1719,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "68a18ed0b34540104897e4335b8e4c6261dfdcf5"
+                "reference": "dd1bd2dfe1fc7fca62c6cb2e3b37be11499176aa"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1735,8 +1735,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.0-beta8+11-dev",
-                    "datestamp": "1738946562",
+                    "version": "1.0.0-beta8+13-dev",
+                    "datestamp": "1739195261",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1775,7 +1775,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_membership_request.git",
-                "reference": "98733b9f5ee2a7fc2b15f4c66a1c2e2b2a8ad3b1"
+                "reference": "b8ff87235e91d6a27790bae211759a5c3b751dad"
             },
             "require": {
                 "drupal/core": "^10.3",
@@ -1788,8 +1788,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.0-beta1+0-dev",
-                    "datestamp": "1729765364",
+                    "version": "1.0.0-beta1+2-dev",
+                    "datestamp": "1739199680",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
