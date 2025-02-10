@@ -1,0 +1,23 @@
+uuid: 570beac3-2ce6-40af-a1d2-17b9cfc0b412
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.bool_expected
+    - lms.lms_activity_type.true_false_feedback
+_core:
+  default_config_hash: FgMEP1z0UnkgiN_Y3d4INc4WqULfXk3Kx9JSt6l3xd8
+id: lms_activity.true_false_feedback.bool_expected
+field_name: bool_expected
+entity_type: lms_activity
+bundle: true_false_feedback
+label: 'Correct answer'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean

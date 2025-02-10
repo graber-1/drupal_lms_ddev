@@ -1,0 +1,32 @@
+uuid: 7b74adff-ef00-4733-83f6-eef69762cfcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.true_false_feedback.answer_feedback
+    - field.field.lms_activity.true_false_feedback.bool_expected
+    - field.field.lms_activity.true_false_feedback.description
+    - field.field.lms_activity.true_false_feedback.question
+    - lms.lms_activity_type.true_false_feedback
+  module:
+    - text
+_core:
+  default_config_hash: UEzTvvzwswg6-DDSqSWOqdhzbcDQ1ZX6aOQnkH9FrN4
+id: lms_activity.true_false_feedback.default
+targetEntityType: lms_activity
+bundle: true_false_feedback
+mode: default
+content:
+  question:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  answer_feedback: true
+  bool_expected: true
+  description: true
+  name: true
+  uid: true

@@ -1,28 +1,22 @@
-uuid: aff40513-804d-44b3-9af6-5e28f5de2062
+uuid: cf60d1d0-549b-473e-83bd-9d987c85022f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.free_text.description
-    - field.field.lms_activity.free_text.question
+    - field.field.lms_activity.free_text.minimum_characters
+    - field.field.lms_activity.free_text.questions
+    - field.field.lms_activity.free_text.text_format
     - lms.lms_activity_type.free_text
-  module:
-    - text
 _core:
-  default_config_hash: MEWDiEs_Wh7WldvlijbNE8eQ2GUNtGneJkYMBj5tvsE
+  default_config_hash: qZDgl76GAhvxtAJJuIRa6A_JsGXm_MMzeBwrj_vT3aw
 id: lms_activity.free_text.default
 targetEntityType: lms_activity
 bundle: free_text
 mode: default
-content:
-  question:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
+content: {  }
 hidden:
-  description: true
+  minimum_characters: true
   name: true
+  questions: true
+  text_format: true
   uid: true

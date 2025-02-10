@@ -1,9 +1,7 @@
-uuid: cedadd89-e760-433b-91e1-78ef9f1a089d
+uuid: f3898c3a-b5a3-4125-8367-76e6c7c2174e
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: uxGLth5NBRTcf2sm6znOq9S_YXGoMnllmhbQgiG3jXk
 id: free_text
 name: 'Free text'
 description: ''

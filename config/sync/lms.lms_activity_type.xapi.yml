@@ -1,9 +1,0 @@
-uuid: bc704ccb-64c2-4d04-be5c-e89cb6e0bc7f
-langcode: en
-status: true
-dependencies: {  }
-id: xapi
-name: Xapi
-description: 'Used to upload Xapi packages'
-pluginId: xapi
-defaultMaxScore: 5

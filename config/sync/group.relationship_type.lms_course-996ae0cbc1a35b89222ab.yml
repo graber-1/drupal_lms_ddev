@@ -1,4 +1,4 @@
-uuid: 1c6375ef-8e53-4315-a1a1-6aa81a8c674e
+uuid: 27e53494-bbb6-4f28-88a4-b8f525e1e332
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
   module:
     - grequest
     - user
+_core:
+  default_config_hash: 6V34rESzu6Ya6TawBg8P3gRL1V77WvxIAhTTaPkKjwk
 id: lms_course-996ae0cbc1a35b89222ab
 group_type: lms_course
 content_plugin: group_membership_request

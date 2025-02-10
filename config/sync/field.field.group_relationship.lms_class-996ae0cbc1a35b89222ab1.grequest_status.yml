@@ -1,0 +1,25 @@
+uuid: b35c996f-2630-4824-afcd-588ac29ee721
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group_relationship.grequest_status
+    - group.relationship_type.lms_class-996ae0cbc1a35b89222ab1
+  module:
+    - state_machine
+_core:
+  default_config_hash: MFlf2my7PMsLdVu55mtdOGKz4SHCBpruP380yvPFEZw
+id: group_relationship.lms_class-996ae0cbc1a35b89222ab1.grequest_status
+field_name: grequest_status
+entity_type: group_relationship
+bundle: lms_class-996ae0cbc1a35b89222ab1
+label: 'Request status'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  workflow: request
+  workflow_callback: ''
+field_type: state
