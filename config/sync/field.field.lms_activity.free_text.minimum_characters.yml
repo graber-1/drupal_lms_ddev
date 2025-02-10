@@ -1,0 +1,25 @@
+uuid: f10ddc33-26a5-4851-a729-3d9142009cf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.minimum_characters
+    - lms.lms_activity_type.free_text
+_core:
+  default_config_hash: _sxXZTSo_SAhZzRE-f8p156LCmfy-1txSnfD2cYxMeE
+id: lms_activity.free_text.minimum_characters
+field_name: minimum_characters
+entity_type: lms_activity
+bundle: free_text
+label: 'Minimum characters'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

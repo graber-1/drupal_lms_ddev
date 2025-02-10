@@ -1,26 +1,26 @@
-uuid: 60914a10-9cd8-4673-8cd5-7b1d00a47acb
+uuid: 8721be1b-5ad3-4dd2-9903-01edc96befee
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.free_text.description
-    - field.field.lms_activity.free_text.question
+    - field.field.lms_activity.free_text.minimum_characters
+    - field.field.lms_activity.free_text.questions
+    - field.field.lms_activity.free_text.text_format
     - lms.lms_activity_type.free_text
   module:
     - text
 _core:
-  default_config_hash: MbdtHAv_CN2VjRBKRgd2QTFAAN3geyMeNY8FTm79gzM
+  default_config_hash: '-uSEBhhwHsO7duEV1RxFjeEJ22jg5ivNGKLZd-_DK_A'
 id: lms_activity.free_text.default
 targetEntityType: lms_activity
 bundle: free_text
 mode: default
 content:
-  description:
-    type: string_textarea
-    weight: 2
+  minimum_characters:
+    type: number
+    weight: 26
     region: content
     settings:
-      rows: 3
       placeholder: ''
     third_party_settings: {  }
   name:
@@ -31,13 +31,19 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  question:
+  questions:
     type: text_textarea
     weight: 1
     region: content
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  text_format:
+    type: options_select
+    weight: 27
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

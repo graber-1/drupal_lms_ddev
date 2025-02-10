@@ -1,0 +1,22 @@
+uuid: 2234aaf9-7b6d-4c3a-b230-44b4fb882de4
+langcode: en
+status: true
+dependencies:
+  module:
+    - filter
+    - lms
+_core:
+  default_config_hash: YMz8pYzVhcejZlf1po4Hbj9mCDZdHPfvaW8Z08m4X30
+id: lms_activity.text_format
+field_name: text_format
+entity_type: lms_activity
+type: entity_reference
+settings:
+  target_type: filter_format
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

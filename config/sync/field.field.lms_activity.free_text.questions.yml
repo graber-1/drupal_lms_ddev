@@ -1,17 +1,19 @@
-uuid: ea5e0d1d-be08-475d-9302-31482c958ed1
+uuid: 76961af0-4a3d-4278-b527-c24138219854
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.lms_activity.question
+    - field.storage.lms_activity.questions
     - lms.lms_activity_type.free_text
   module:
     - text
-id: lms_activity.free_text.question
-field_name: question
+_core:
+  default_config_hash: L9YidW0eh1SprrJ9GfEd6d7Y9CJIz2_UKwZ_UZYAzdk
+id: lms_activity.free_text.questions
+field_name: questions
 entity_type: lms_activity
 bundle: free_text
-label: Question
+label: Questions
 description: ''
 required: true
 translatable: false

@@ -1,0 +1,25 @@
+uuid: e2be7aab-5708-4491-a563-564150146d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.text_format
+    - lms.lms_activity_type.free_text
+_core:
+  default_config_hash: DkCh2E6jSrn1XHGxKB2oN3rZTazYazcTvzfRUV_GKHY
+id: lms_activity.free_text.text_format
+field_name: text_format
+entity_type: lms_activity
+bundle: free_text
+label: 'Text format'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:filter_format'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

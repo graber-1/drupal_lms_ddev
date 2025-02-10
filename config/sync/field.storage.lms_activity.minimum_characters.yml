@@ -1,0 +1,22 @@
+uuid: 5acc14a3-39ca-4a6a-aba0-6e83ffe5b55f
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+_core:
+  default_config_hash: 4KtMD8N4Qs2uKriTA38r4KiR4Ig21WwYqbuOqmPPEt4
+id: lms_activity.minimum_characters
+field_name: minimum_characters
+entity_type: lms_activity
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
