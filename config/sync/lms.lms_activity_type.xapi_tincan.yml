@@ -1,0 +1,9 @@
+uuid: b39b4b48-eb8d-414c-a69f-2ad55cd3a16a
+langcode: en
+status: true
+dependencies: {  }
+id: xapi_tincan
+name: 'Xapi / TinCan'
+description: ''
+pluginId: xapi
+defaultMaxScore: 5

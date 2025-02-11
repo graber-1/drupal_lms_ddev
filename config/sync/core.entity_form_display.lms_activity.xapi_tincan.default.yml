@@ -1,0 +1,48 @@
+uuid: decd6ea2-73b9-4a6e-af27-e5704e3b7238
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.xapi_tincan.field_xapi_package
+    - lms.lms_activity_type.xapi_tincan
+  module:
+    - lms_xapi
+_core:
+  default_config_hash: fqQqrw4ukOiurfFD48V3OPgJMvULO4rEf6CS2p4oLkA
+id: lms_activity.xapi_tincan.default
+targetEntityType: lms_activity
+bundle: xapi_tincan
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_xapi_package:
+    type: lms_xapi
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

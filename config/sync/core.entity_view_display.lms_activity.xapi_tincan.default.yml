@@ -1,0 +1,40 @@
+uuid: e614bad7-2a9f-493e-8279-7cd3029af39d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.xapi_tincan.field_xapi_package
+    - lms.lms_activity_type.xapi_tincan
+  module:
+    - lms_xapi
+    - user
+_core:
+  default_config_hash: ZeM3eAo3vFVvd2SgV3NHylmbWAZucRwuy2xeBeaZXuk
+id: lms_activity.xapi_tincan.default
+targetEntityType: lms_activity
+bundle: xapi_tincan
+mode: default
+content:
+  field_xapi_package:
+    type: lms_xapi
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

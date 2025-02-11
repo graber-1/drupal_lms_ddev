@@ -1,0 +1,29 @@
+uuid: 18caa0ce-9745-4ebb-9895-b6df9e5ce026
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_xapi_package
+    - lms.lms_activity_type.xapi_tincan
+  module:
+    - lms_xapi
+_core:
+  default_config_hash: _5bvFM-klZc6qkSI1wvxsnSiJpDRRbp7vkR6fvA18uo
+id: lms_activity.xapi_tincan.field_xapi_package
+field_name: field_xapi_package
+entity_type: lms_activity
+bundle: xapi_tincan
+label: 'XAPI package'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: lms_xapi_packages
+  file_extensions: zip
+  max_filesize: ''
+  description_field: 0
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: lms_xapi
