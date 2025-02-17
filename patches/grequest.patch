@@ -1,0 +1,18 @@
+diff --git a/src/Plugin/Validation/Constraint/GroupMembershipRequestValidator.php b/src/Plugin/Validation/Constraint/GroupMembershipRequestValidator.php
+index 54e8f8a..ebe90bf 100644
+--- a/src/Plugin/Validation/Constraint/GroupMembershipRequestValidator.php
++++ b/src/Plugin/Validation/Constraint/GroupMembershipRequestValidator.php
+@@ -10,13 +10,6 @@ use Symfony\Component\Validator\ConstraintValidator;
+  */
+ class GroupMembershipRequestValidator extends ConstraintValidator {
+ 
+-  /**
+-   * Type-hinting in parent Symfony class is off, let's fix that.
+-   *
+-   * @var \Symfony\Component\Validator\Context\ExecutionContextInterface
+-   */
+-  protected $context;
+-
+   /**
+    * {@inheritdoc}
+    */
