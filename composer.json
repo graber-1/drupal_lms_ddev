@@ -18,19 +18,17 @@
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
-        "drupal/core": "^10.3",
-        "drupal/core-composer-scaffold": "^10.3",
+        "drupal/core": "^11",
+        "drupal/core-composer-scaffold": "^11",
         "drupal/lms": "1.0.x-dev",
         "drupal/lms_membership_request": "1.0.x-dev",
-        "drupal/lms_xapi": "^1.0@dev",
-        "drupal/views_bulk_operations": "4.3.0-beta2",
-        "drush/drush": "^12.0"
+        "drupal/views_bulk_operations": "^4.3",
+        "drush/drush": "^13.3"
     },
     "require-dev": {
         "chi-teck/drupal-coder-extension": "^1.2",
-        "claudiu-cristea/drupal-dependencies": "1.x-dev",
         "drupal/config_inspector": "^2.1",
-        "drupal/core-dev": "^10.3",
+        "drupal/core-dev": "^11",
         "drupal/devel": "^5.3",
         "drupal/developer_console": "^1.0@dev",
         "ergebnis/phpstan-rules": "^1.0",
@@ -61,7 +59,7 @@
         "sid": "drush site:install -v minimal --existing-config --yes --sites-subdir=default && drush lms-ctt --simple-passwords && drush en -y developer_console && drush uli",
         "test-environment": "drush si minimal --yes && drush thin claro && drush cset system.theme default claro -y && drush pm:install dblog block page_cache dynamic_page_cache lms lms_answer_plugins -y",
         "test": "rm -rf web/sites/simpletest/[0-9]*; rm web/sites/simpletest/browser_output/*; phpunit web/modules/contrib/lms/",
-        "phpcs": "phpcs -s /var/www/html/web/modules/contrib/lms",
+        "phpcs": "phpcs -s --standard='web/modules/contrib/lms/phpcs.xml' web/modules/contrib/lms/",
         "phpcbf": "phpcbf /var/www/html/web/modules/contrib/lms",
         "phpstan": "phpstan -vv analyse /var/www/html/web/modules/contrib/lms -c /var/www/html/web/modules/contrib/lms/phpstan.neon",
         "phpstan-baseline": "rm /var/www/html/web/modules/contrib/lms/phpstan-baseline.neon; touch /var/www/html/web/modules/contrib/lms/phpstan-baseline.neon; phpstan analyse /var/www/html/web/modules/contrib/lms -c /var/www/html/web/modules/contrib/lms/phpstan.neon --generate-baseline /var/www/html/web/modules/contrib/lms/phpstan-baseline.neon"
