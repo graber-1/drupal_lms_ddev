@@ -1,17 +1,18 @@
-uuid: 7b74adff-ef00-4733-83f6-eef69762cfcc
+uuid: 09a1ea63-2066-4d63-991a-60c5ec47faf4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.true_false_feedback.answer_feedback
     - field.field.lms_activity.true_false_feedback.bool_expected
     - field.field.lms_activity.true_false_feedback.description
+    - field.field.lms_activity.true_false_feedback.feedback_if_correct
+    - field.field.lms_activity.true_false_feedback.feedback_if_wrong
     - field.field.lms_activity.true_false_feedback.question
     - lms.lms_activity_type.true_false_feedback
   module:
     - text
 _core:
-  default_config_hash: UEzTvvzwswg6-DDSqSWOqdhzbcDQ1ZX6aOQnkH9FrN4
+  default_config_hash: XNmOyQFrdtCvhtbQHgbDoBZlcKi2D-81i6BBqqRRJug
 id: lms_activity.true_false_feedback.default
 targetEntityType: lms_activity
 bundle: true_false_feedback
@@ -25,8 +26,9 @@ content:
     weight: 0
     region: content
 hidden:
-  answer_feedback: true
   bool_expected: true
   description: true
+  feedback_if_correct: true
+  feedback_if_wrong: true
   name: true
   uid: true

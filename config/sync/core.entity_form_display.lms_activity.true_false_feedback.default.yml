@@ -1,39 +1,48 @@
-uuid: f78c51b2-df7c-433a-8e28-e33404741182
+uuid: 95598bad-e92c-410e-9ac1-f2a302308313
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.lms_activity.true_false_feedback.answer_feedback
     - field.field.lms_activity.true_false_feedback.bool_expected
     - field.field.lms_activity.true_false_feedback.description
+    - field.field.lms_activity.true_false_feedback.feedback_if_correct
+    - field.field.lms_activity.true_false_feedback.feedback_if_wrong
     - field.field.lms_activity.true_false_feedback.question
     - lms.lms_activity_type.true_false_feedback
   module:
     - text
 _core:
-  default_config_hash: Sf6DVslkWTCrrG-fEa7LqHbgdvRA39pC7D6QpwOOV4I
+  default_config_hash: UDOGFJTHIdEiEGabam_LX2eW-pezQlEM5VyHsKcR8C0
 id: lms_activity.true_false_feedback.default
 targetEntityType: lms_activity
 bundle: true_false_feedback
 mode: default
 content:
-  answer_feedback:
+  bool_expected:
+    type: options_buttons
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  description:
     type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  feedback_if_correct:
+    type: text_textarea
     weight: 4
     region: content
     settings:
       rows: 3
       placeholder: ''
     third_party_settings: {  }
-  bool_expected:
-    type: options_buttons
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  description:
-    type: string_textarea
-    weight: 3
+  feedback_if_wrong:
+    type: text_textarea
+    weight: 5
     region: content
     settings:
       rows: 3
