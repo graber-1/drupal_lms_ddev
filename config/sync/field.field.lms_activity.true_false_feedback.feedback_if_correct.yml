@@ -1,0 +1,24 @@
+uuid: 12510420-52eb-4d86-b0b0-6953ef9feb4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.feedback_if_correct
+    - lms.lms_activity_type.true_false_feedback
+  module:
+    - text
+_core:
+  default_config_hash: 3egsukq3PH5ReETwl5HFeJoMsiy0LckvxpFM3ZRQrEQ
+id: lms_activity.true_false_feedback.feedback_if_correct
+field_name: feedback_if_correct
+entity_type: lms_activity
+bundle: true_false_feedback
+label: 'Answer feedback if correct'
+description: 'Feedback to give the student when they have selected the correct answer.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

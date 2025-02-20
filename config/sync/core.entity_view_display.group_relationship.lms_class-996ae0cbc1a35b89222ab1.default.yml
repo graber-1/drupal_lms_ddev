@@ -1,4 +1,4 @@
-uuid: b93285cf-2ed5-4908-90ab-53ea377f8514
+uuid: 17999c50-1c68-4d42-a2d5-1d95cc01651a
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - group.relationship_type.lms_class-996ae0cbc1a35b89222ab1
   module:
     - options
-_core:
-  default_config_hash: 6hDA0D_gZv3dOlS2XfMINTbZUKJRd9gt-uFZxqBuesQ
 id: group_relationship.lms_class-996ae0cbc1a35b89222ab1.default
 targetEntityType: group_relationship
 bundle: lms_class-996ae0cbc1a35b89222ab1

@@ -1,4 +1,4 @@
-uuid: ea37f22e-9d62-4dfb-bed9-5291e94ea4dd
+uuid: 1a30d0ce-6c3b-4256-902b-a38edfe74815
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - group.relationship_type.lms_course-996ae0cbc1a35b89222ab
   module:
     - state_machine
-_core:
-  default_config_hash: RWh8AvJNGTZIy34s_DqNntGHITSIaAfY4SyqgDmqUWc
 id: group_relationship.lms_course-996ae0cbc1a35b89222ab.grequest_status
 field_name: grequest_status
 entity_type: group_relationship

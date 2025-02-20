@@ -1,4 +1,4 @@
-uuid: 9e1cf1ed-acd2-40c9-876c-2e8d248a05da
+uuid: 7e303e17-95bb-4311-9d35-6ca15ab527ae
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - lms
     - text
 _core:
-  default_config_hash: PTRmNDYWTmxvio9z-TZBHvYkGY4Wj2PS38QztsqdGkg
-id: lms_activity.questions
-field_name: questions
+  default_config_hash: 26ef2rnSEbugprzSJKgAPh3GxdjtP4SqogGWlHrAphE
+id: lms_activity.feedback_if_wrong
+field_name: feedback_if_wrong
 entity_type: lms_activity
 type: text_long
 settings: {  }
 module: text
 locked: true
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

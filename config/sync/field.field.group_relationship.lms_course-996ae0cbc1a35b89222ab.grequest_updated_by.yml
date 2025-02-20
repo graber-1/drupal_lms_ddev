@@ -1,12 +1,10 @@
-uuid: bf8448aa-b2ac-47fa-9dbb-fb12e53ae357
+uuid: f91b6d2e-0ba5-4570-8869-9e642208ad75
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.group_relationship.grequest_updated_by
     - group.relationship_type.lms_course-996ae0cbc1a35b89222ab
-_core:
-  default_config_hash: 5kUIWFsHVMfGKwrier8IOUjW2LPI3yYLE7Bn3QBbDLY
 id: group_relationship.lms_course-996ae0cbc1a35b89222ab.grequest_updated_by
 field_name: grequest_updated_by
 entity_type: group_relationship
