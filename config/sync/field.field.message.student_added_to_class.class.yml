@@ -1,0 +1,31 @@
+uuid: 20dc930c-b3b3-4e12-80ef-6d8a92fa0c6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.class
+    - group.type.lms_class
+    - message.template.student_added_to_class
+_core:
+  default_config_hash: 4QhM1MSgjRk88V-gpzXTPwPwT7M_htUEAAq-mgFhU9M
+id: message.student_added_to_class.class
+field_name: class
+entity_type: message
+bundle: student_added_to_class
+label: Class
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:group'
+  handler_settings:
+    target_bundles:
+      lms_class: lms_class
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: lms_class
+field_type: entity_reference

@@ -88,8 +88,8 @@ display:
               action_id: node_unpromote_action
               preconfiguration:
                 add_confirmation: true
-                label_override: Demote
                 confirm_help_text: 'This will demote %count selected content.'
+                label_override: Demote
         title:
           id: title
           table: node_field_data

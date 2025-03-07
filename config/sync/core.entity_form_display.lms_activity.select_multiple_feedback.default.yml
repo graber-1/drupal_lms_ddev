@@ -1,0 +1,61 @@
+uuid: cb1c369f-f614-4f1a-bdab-ba2e45067b0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.select_multiple_feedback.answers
+    - field.field.lms_activity.select_multiple_feedback.feedback_if_correct
+    - field.field.lms_activity.select_multiple_feedback.feedback_if_wrong
+    - field.field.lms_activity.select_multiple_feedback.question
+    - lms.lms_activity_type.select_multiple_feedback
+  module:
+    - lms_answer_plugins
+    - text
+_core:
+  default_config_hash: oNkGzy0wcFPHRJdK5xY8TBTy4RxNAtS2SLGGownqx9s
+id: lms_activity.select_multiple_feedback.default
+targetEntityType: lms_activity
+bundle: select_multiple_feedback
+mode: default
+content:
+  answers:
+    type: lms_answer
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  feedback_if_correct:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  feedback_if_wrong:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  question:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

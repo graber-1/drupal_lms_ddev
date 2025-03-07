@@ -1,0 +1,22 @@
+uuid: da7030a6-da92-49fc-8f5e-c82536c93019
+langcode: en
+status: true
+dependencies:
+  module:
+    - message
+    - user
+_core:
+  default_config_hash: h9lXJTnrJborodb23UuCJuhTNrTuJxpTGKuj3dKOakc
+id: message.user
+field_name: user
+entity_type: message
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

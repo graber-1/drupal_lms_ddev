@@ -1,0 +1,20 @@
+uuid: c7c376d1-9f3f-4043-ab20-ba85bbeac45b
+langcode: en
+status: true
+dependencies:
+  module:
+    - message_notifications
+  theme:
+    - olivero
+id: olivero_notifications
+theme: olivero
+region: header
+weight: -5
+provider: null
+plugin: message_notification_block
+settings:
+  id: message_notification_block
+  label: Notifications
+  label_display: visible
+  provider: message_notifications
+visibility: {  }

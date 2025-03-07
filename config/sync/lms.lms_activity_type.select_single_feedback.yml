@@ -1,0 +1,9 @@
+uuid: 750da5a3-2db7-49f6-97c9-c980fd47531e
+langcode: en
+status: true
+dependencies: {  }
+id: select_single_feedback
+name: 'Single answer select with feedback'
+description: ''
+pluginId: select_single_feedback
+defaultMaxScore: 5

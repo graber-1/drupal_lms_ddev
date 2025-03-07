@@ -1,0 +1,19 @@
+uuid: 47b08b0d-65cb-40ad-8492-b504dbdf21cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - field.field.message.student_added_to_class.class
+    - message.template.student_added_to_class
+id: message.student_added_to_class.mail_body
+targetEntityType: message
+bundle: student_added_to_class
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  class: true
+  partial_0: true

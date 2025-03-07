@@ -1,0 +1,25 @@
+uuid: b3aa0b1d-b9ed-447a-afb0-cf74ee0ade48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.course_evaluated.course
+    - message.template.course_evaluated
+_core:
+  default_config_hash: sFS0bqKsvHD4GTUO4guC8sbJXB8YxJIP5OKPQAXZZKc
+id: message.course_evaluated.default
+targetEntityType: message
+bundle: course_evaluated
+mode: default
+content:
+  course:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

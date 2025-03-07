@@ -1,0 +1,22 @@
+uuid: d6f31104-62f9-4fd4-bff0-b7090ee7f6c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - message
+_core:
+  default_config_hash: YZwRAzQZGsWtYQQ06izLepjL8YNH2dbl7vb3Trt_m3w
+id: message.course
+field_name: course
+entity_type: message
+type: entity_reference
+settings:
+  target_type: group
+module: core
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

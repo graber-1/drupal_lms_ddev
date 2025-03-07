@@ -1,0 +1,24 @@
+uuid: a2115d68-99a4-491d-b23b-e83379f5c024
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+_core:
+  default_config_hash: 4uRDywhlw8goYGR7ktDSkiPupXWvXD2q3_Q_iiapbBQ
+template: course_evaluated
+label: 'Course has been evaluated'
+description: ''
+text:
+  -
+    value: 'Course [message:course:entity:title] has been evaluated'
+    format: plain_text
+  -
+    value: '[message:course:entity:title] has just been evaluated by your teacher. Your results: [site:base-url]/group/[message:course:target_id]/course-results'
+    format: plain_text
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

@@ -1,0 +1,22 @@
+uuid: aa1c9b15-aa6b-4c3e-b9e5-687c1d5da200
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - message
+_core:
+  default_config_hash: W04KLOzM7VjQWGY25qqpJVQtTenIPmjfY6wqeNmGweA
+id: message.group
+field_name: group
+entity_type: message
+type: entity_reference
+settings:
+  target_type: group
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

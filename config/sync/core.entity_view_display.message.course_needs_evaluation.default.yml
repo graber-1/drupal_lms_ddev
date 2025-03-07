@@ -1,0 +1,42 @@
+uuid: bd3f134c-f520-46e1-9044-2f17a50be570
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.course_needs_evaluation.course
+    - field.field.message.course_needs_evaluation.user
+    - message.template.course_needs_evaluation
+_core:
+  default_config_hash: rKmSfpoQudFCA37b3HNSDQ-dsymMEQ_5YoNLTH6SUj0
+id: message.course_needs_evaluation.default
+targetEntityType: message
+bundle: course_needs_evaluation
+mode: default
+content:
+  course:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  partial_0:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  partial_1:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

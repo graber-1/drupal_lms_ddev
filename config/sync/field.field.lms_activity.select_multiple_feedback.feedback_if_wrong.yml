@@ -1,0 +1,24 @@
+uuid: 5223db6b-0705-40d3-acfe-c3568b10a141
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.feedback_if_wrong
+    - lms.lms_activity_type.select_multiple_feedback
+  module:
+    - text
+_core:
+  default_config_hash: BXMDF9xhg6zShdvwvJwR852hOI5OqGTQ2aqKDGzsL9s
+id: lms_activity.select_multiple_feedback.feedback_if_wrong
+field_name: feedback_if_wrong
+entity_type: lms_activity
+bundle: select_multiple_feedback
+label: 'Answer feedback if wrong'
+description: 'Feedback to give the student when they have one or more wrong answers.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

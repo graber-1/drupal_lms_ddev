@@ -1,0 +1,24 @@
+uuid: a8d9ca0b-9136-425c-b56f-178d85b864a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.feedback_if_correct
+    - lms.lms_activity_type.select_multiple_feedback
+  module:
+    - text
+_core:
+  default_config_hash: sV6eGvqAb_CPtLyfAanNgYtbRwWD4s91FBnTIUEpOto
+id: lms_activity.select_multiple_feedback.feedback_if_correct
+field_name: feedback_if_correct
+entity_type: lms_activity
+bundle: select_multiple_feedback
+label: 'Answer feedback if correct'
+description: 'Feedback to give the student when they have selected all the correct answers.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

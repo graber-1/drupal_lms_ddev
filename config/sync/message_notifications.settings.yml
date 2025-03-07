@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: DDyt2zpp6Oph94LDEtgNY4CaZE7tNuOvQdSRQBCKFJ4
+notification_templates:
+  course_evaluated: course_evaluated
+  course_needs_evaluation: course_needs_evaluation
+  student_added_to_class: student_added_to_class
+notification_count: 5

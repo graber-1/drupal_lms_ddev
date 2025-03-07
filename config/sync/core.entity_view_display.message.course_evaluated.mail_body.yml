@@ -1,0 +1,19 @@
+uuid: 64ffb2e3-60fa-4cda-b692-d6a6ad10d002
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - field.field.message.course_evaluated.course
+    - message.template.course_evaluated
+id: message.course_evaluated.mail_body
+targetEntityType: message
+bundle: course_evaluated
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  course: true
+  partial_0: true

@@ -1,0 +1,36 @@
+uuid: 2c7a5dc5-39ce-472b-b0ac-650587095082
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.course_needs_evaluation.course
+    - field.field.message.course_needs_evaluation.user
+    - message.template.course_needs_evaluation
+_core:
+  default_config_hash: wkKKVnAKzUeZtPt0gfZNm6S8aZ_8RjrL342y2cDpFDg
+id: message.course_needs_evaluation.default
+targetEntityType: message
+bundle: course_needs_evaluation
+mode: default
+content:
+  course:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

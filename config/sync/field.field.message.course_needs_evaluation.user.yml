@@ -1,0 +1,31 @@
+uuid: f1bfa129-a131-4f8a-ad37-8ef3119818e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.user
+    - message.template.course_needs_evaluation
+_core:
+  default_config_hash: G0AC3jlEJD70tq-WCOoKzzzAjePPUDVXZAhCJOMxFXE
+id: message.course_needs_evaluation.user
+field_name: user
+entity_type: message
+bundle: course_needs_evaluation
+label: User
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: false
+field_type: entity_reference

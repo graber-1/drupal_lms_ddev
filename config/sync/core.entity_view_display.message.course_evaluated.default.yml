@@ -1,0 +1,33 @@
+uuid: e425885f-dcac-4969-8917-1c2a55a0600b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.course_evaluated.course
+    - message.template.course_evaluated
+_core:
+  default_config_hash: 3PoCJaPIkqmVnCt9aeJFsTm45xS8h_HQ4gnxrgU16b0
+id: message.course_evaluated.default
+targetEntityType: message
+bundle: course_evaluated
+mode: default
+content:
+  course:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  partial_0:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  partial_1:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
