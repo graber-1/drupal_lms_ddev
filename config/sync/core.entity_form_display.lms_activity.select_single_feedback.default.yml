@@ -1,0 +1,61 @@
+uuid: 5c93522b-1484-4f6d-a53e-2d06bb67acfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.select_single_feedback.answers
+    - field.field.lms_activity.select_single_feedback.feedback_if_correct
+    - field.field.lms_activity.select_single_feedback.feedback_if_wrong
+    - field.field.lms_activity.select_single_feedback.question
+    - lms.lms_activity_type.select_single_feedback
+  module:
+    - lms_answer_plugins
+    - text
+_core:
+  default_config_hash: QuWyn-x8adOOGuvTjFKysbNQGFRatzWIfALLXcpeO5Q
+id: lms_activity.select_single_feedback.default
+targetEntityType: lms_activity
+bundle: select_single_feedback
+mode: default
+content:
+  answers:
+    type: lms_answer
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  feedback_if_correct:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  feedback_if_wrong:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  question:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

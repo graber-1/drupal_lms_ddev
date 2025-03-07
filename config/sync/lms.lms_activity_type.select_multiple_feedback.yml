@@ -1,0 +1,9 @@
+uuid: 32152f1d-f4ad-4996-9720-f536ae4099b8
+langcode: en
+status: true
+dependencies: {  }
+id: select_multiple_feedback
+name: 'Multiple answer select with feedback'
+description: ''
+pluginId: select_multiple_feedback
+defaultMaxScore: 5

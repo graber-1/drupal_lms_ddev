@@ -21,7 +21,6 @@
         "drupal/core": "^11",
         "drupal/core-composer-scaffold": "^11",
         "drupal/lms": "1.0.x-dev",
-        "drupal/lms_membership_request": "1.0.x-dev",
         "drupal/views_bulk_operations": "^4.3",
         "drush/drush": "^13.3"
     },

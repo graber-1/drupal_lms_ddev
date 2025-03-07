@@ -14,18 +14,15 @@ module:
   file: 0
   filter: 0
   flexible_permissions: 0
-  grequest: 0
   group: 0
   image: 0
   lms: 0
   lms_answer_plugins: 0
-  lms_membership_request: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path_alias: 0
-  state_machine: 0
   system: 0
   text: 0
   toolbar: 0
