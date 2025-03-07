@@ -1,4 +1,3 @@
-notification_count: '5'
 template_behavior:
   student_added_to_class:
     email: 1

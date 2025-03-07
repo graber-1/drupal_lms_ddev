@@ -1774,7 +1774,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_messages.git",
-                "reference": "ab783ce227c86e815c4378c48c3215afb1771c30"
+                "reference": "7348f5869437e26df2d6007256af2447a551093e"
             },
             "require": {
                 "drupal/core": "^10 || ^11",
@@ -1789,7 +1789,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1741342403",
+                    "datestamp": "1741343784",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
