@@ -22,14 +22,14 @@ content:
     weight: 0
     region: content
   partial_0:
-    weight: 0
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   partial_1:
-    weight: 0
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   user:
     type: entity_reference_label

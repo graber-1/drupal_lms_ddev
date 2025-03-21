@@ -1,0 +1,25 @@
+uuid: 63f8e29c-c0de-4ec2-afcf-9a4d580df81d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+    - field.field.comment.lms_answer_comment.comment_body
+  module:
+    - text
+id: comment.lms_answer_comment.default
+targetEntityType: comment
+bundle: lms_answer_comment
+mode: default
+content:
+  comment_body:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  author: true
+  subject: true
