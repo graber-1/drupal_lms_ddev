@@ -1,0 +1,25 @@
+uuid: 78b2aa53-1e63-4ab7-881c-843bb8cd4a59
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+    - field.field.comment.lms_answer_comment.comment_body
+  module:
+    - text
+_core:
+  default_config_hash: fhXLGg9dRj32lzi8VRH1WX6FHPf30d2XumObwod0L1s
+id: comment.lms_answer_comment.default
+targetEntityType: comment
+bundle: lms_answer_comment
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

@@ -5,6 +5,7 @@ module:
   admin_toolbar_tools: 0
   block: 0
   breakpoint: 0
+  comment: 0
   contextual: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -17,6 +18,7 @@ module:
   group: 0
   image: 0
   lms: 0
+  lms_answer_comments: 0
   lms_answer_plugins: 0
   mysql: 0
   node: 0

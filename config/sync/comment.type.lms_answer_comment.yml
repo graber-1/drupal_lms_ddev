@@ -1,0 +1,10 @@
+uuid: 21097ff8-56b3-43fa-9b1c-9f6b9e9ff426
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: T1Fo5eQ3X3b0lj7YOt9t-i_OEj0KiIAYJcGLmQvarOY
+id: lms_answer_comment
+label: 'LMS Answer Comment'
+target_entity_type_id: lms_answer
+description: ''

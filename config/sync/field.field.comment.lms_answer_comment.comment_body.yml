@@ -1,0 +1,24 @@
+uuid: a3a895b9-2493-4c07-bad0-2be0af19ea94
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+    - field.storage.comment.comment_body
+  module:
+    - text
+_core:
+  default_config_hash: qGbQNQKdN46bjyO4t6_qXWnNVrW4PHyQkHzhvg_FNVU
+id: comment.lms_answer_comment.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: lms_answer_comment
+label: Comment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
