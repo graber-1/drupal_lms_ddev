@@ -1,0 +1,25 @@
+uuid: 1d4c0ea2-e975-4bbb-b51f-8a6070ec1521
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.lms_messages_course_evaluated.course
+    - message.template.lms_messages_course_evaluated
+_core:
+  default_config_hash: AQ10AedwaPQawQVCv9ds-DeX_lACqcFD6_5dt-jJeTo
+id: message.lms_messages_course_evaluated.default
+targetEntityType: message
+bundle: lms_messages_course_evaluated
+mode: default
+content:
+  course:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

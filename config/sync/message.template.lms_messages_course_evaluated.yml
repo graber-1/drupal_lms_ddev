@@ -1,14 +1,14 @@
-uuid: a2115d68-99a4-491d-b23b-e83379f5c024
+uuid: e52237f0-9d21-4b66-9a80-6fc86302ee89
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.plain_text
 _core:
-  default_config_hash: 4uRDywhlw8goYGR7ktDSkiPupXWvXD2q3_Q_iiapbBQ
-template: course_evaluated
+  default_config_hash: ANgfZnXL03znhGvug1UkaleuoMm0MaNOmky15kBBqGQ
+template: lms_messages_course_evaluated
 label: 'Course has been evaluated'
-description: ''
+description: 'Created when a course is fully evaluated by a teacher.'
 text:
   -
     value: 'Course [message:course:entity:title] has been evaluated'

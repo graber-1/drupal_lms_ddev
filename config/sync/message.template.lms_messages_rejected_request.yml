@@ -1,0 +1,24 @@
+uuid: ceb30f72-80a4-4878-9373-d863d743bcfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+_core:
+  default_config_hash: UosLqi06phB87xgAgX54LJIrAtj7XaNupy5RkWZrius
+template: lms_messages_rejected_request
+label: 'Membership request rejected'
+description: "Created when a student's membership request is rejected"
+text:
+  -
+    value: 'Your course access request to "[message:course:entity:title]" has been rejected'
+    format: plain_text
+  -
+    value: 'You cannot access the "[message:course:entity:title]" course.'
+    format: plain_text
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

@@ -1,4 +1,3 @@
-template_behavior:
-  student_added_to_class:
-    email: 1
-    prevent_message_save: 0
+_core:
+  default_config_hash: kKadk8yzGoKR57nWGpr3chob6-BXoa7gxzjNeCXhIe4
+template_behavior: {  }

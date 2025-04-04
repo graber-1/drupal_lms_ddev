@@ -1,0 +1,51 @@
+uuid: 2d5f4295-dc97-4225-b67c-5809bbbdbe62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.free_text_feedback.minimum_characters
+    - field.field.lms_activity.free_text_feedback.phrase_feedback
+    - field.field.lms_activity.free_text_feedback.question
+    - lms.lms_activity_type.free_text_feedback
+  module:
+    - lms_answer_plugins
+    - text
+_core:
+  default_config_hash: Am1jdx8TQzR2gAAPTRzwfNy9PM2TsPOuDymewMhUHoI
+id: lms_activity.free_text_feedback.default
+targetEntityType: lms_activity
+bundle: free_text_feedback
+mode: default
+content:
+  minimum_characters:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  phrase_feedback:
+    type: lms_phrase_feedback
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  question:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 4
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

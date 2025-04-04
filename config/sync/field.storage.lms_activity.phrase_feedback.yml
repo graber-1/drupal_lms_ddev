@@ -1,0 +1,21 @@
+uuid: 4e868b44-8706-4d82-9937-ae040e39babf
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+    - lms_answer_plugins
+_core:
+  default_config_hash: 1BnB7nux3Y8NqsBLBA6XyyODaCcdxyJ8XtJ8ojAcMAg
+id: lms_activity.phrase_feedback
+field_name: phrase_feedback
+entity_type: lms_activity
+type: lms_phrase_feedback
+settings: {  }
+module: lms_answer_plugins
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

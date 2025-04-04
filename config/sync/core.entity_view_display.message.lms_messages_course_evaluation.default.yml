@@ -1,16 +1,16 @@
-uuid: bd3f134c-f520-46e1-9044-2f17a50be570
+uuid: 28a708b3-9567-493f-a3ac-c7a0f63cb51b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.message.course_needs_evaluation.course
-    - field.field.message.course_needs_evaluation.user
-    - message.template.course_needs_evaluation
+    - field.field.message.lms_messages_course_evaluation.course
+    - field.field.message.lms_messages_course_evaluation.user
+    - message.template.lms_messages_course_evaluation
 _core:
-  default_config_hash: rKmSfpoQudFCA37b3HNSDQ-dsymMEQ_5YoNLTH6SUj0
-id: message.course_needs_evaluation.default
+  default_config_hash: '-5iZsB1bCFqk7E8Oyf10T7yCuUTerJHrRaP7P0CkqXs'
+id: message.lms_messages_course_evaluation.default
 targetEntityType: message
-bundle: course_needs_evaluation
+bundle: lms_messages_course_evaluation
 mode: default
 content:
   course:
@@ -22,14 +22,14 @@ content:
     weight: 0
     region: content
   partial_0:
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    weight: 0
     region: content
   partial_1:
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    weight: 0
     region: content
   user:
     type: entity_reference_label

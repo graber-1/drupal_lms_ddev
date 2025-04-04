@@ -1,0 +1,31 @@
+uuid: 8162d013-2315-4e99-9348-2419b643aa7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.user
+    - message.template.lms_messages_course_evaluation
+_core:
+  default_config_hash: UdDoykPJRZBMFUMj-YlLs3GNmOfK69kPZSpPv9fDgAI
+id: message.lms_messages_course_evaluation.user
+field_name: user
+entity_type: message
+bundle: lms_messages_course_evaluation
+label: User
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: false
+field_type: entity_reference

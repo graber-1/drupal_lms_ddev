@@ -1,33 +1,33 @@
-uuid: 38f6a91a-64d0-45db-ad96-a94b162b7569
+uuid: b02f00d0-4a57-446d-8502-b40fc92645f2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.message.student_added_to_class.class
-    - message.template.student_added_to_class
+    - field.field.message.lms_messages_approved_request.course
+    - message.template.lms_messages_approved_request
 _core:
-  default_config_hash: B_hj2iO8RsHhcf8hnBS8WwejIN0YTQrTQHtJZ1jO68A
-id: message.student_added_to_class.default
+  default_config_hash: iFClURKMc_hbDQbJqASIjDMJ_-Cse9-JM2eeBExunSs
+id: message.lms_messages_approved_request.default
 targetEntityType: message
-bundle: student_added_to_class
+bundle: lms_messages_approved_request
 mode: default
 content:
-  class:
+  course:
     type: entity_reference_label
     label: above
     settings:
       link: true
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   partial_0:
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    weight: 0
     region: content
   partial_1:
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    weight: 0
     region: content
 hidden: {  }

@@ -1,14 +1,14 @@
-uuid: da3454b3-0ff8-42ad-b654-c487823f3529
+uuid: e66c8c30-204b-48c9-8353-90032fe3d959
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.plain_text
 _core:
-  default_config_hash: aH1qAvhEwXYb1aCu2L7w_leYt4TvhfZKBYRrvfkpnkQ
-template: course_needs_evaluation
+  default_config_hash: WqNHRz2trf2WM0Uy6Grc39uTFnL312Y9FbgWdLsOyP0
+template: lms_messages_course_evaluation
 label: 'Course needs evaluation'
-description: ''
+description: 'Created when a course containing activities that need manual evaluation is finished by a student.'
 text:
   -
     value: 'Student [message:user:entity:display-name] needs evaluating on [message:course:entity:title].'

@@ -1,0 +1,27 @@
+uuid: 0ea2f30c-6f5e-4bec-ae98-802a2ab30959
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.minimum_characters
+    - lms.lms_activity_type.free_text_feedback
+_core:
+  default_config_hash: jWWBhV-sPj_TgQXFbvTKkC977aG8MoRaOtErlzrt19Y
+id: lms_activity.free_text_feedback.minimum_characters
+field_name: minimum_characters
+entity_type: lms_activity
+bundle: free_text_feedback
+label: 'Minimum characters'
+description: 'The minimum number of characters required for the answer to be accepted. Use 0 for no minimum.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 50
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

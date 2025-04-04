@@ -1,0 +1,24 @@
+uuid: 01c76d65-d461-4e92-8acd-38dbbe4badc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.question
+    - lms.lms_activity_type.free_text_feedback
+  module:
+    - text
+_core:
+  default_config_hash: Q2Qrmy4-zHkeF2DsfwIUjMHx_hXgVOhkOsdsmNqzMng
+id: lms_activity.free_text_feedback.question
+field_name: question
+entity_type: lms_activity
+bundle: free_text_feedback
+label: Question
+description: 'The question or instruction that you want the student to respond to. You may want to include some guidance on what they should write about.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

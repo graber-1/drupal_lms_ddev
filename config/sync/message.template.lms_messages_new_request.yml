@@ -1,0 +1,24 @@
+uuid: 19734c67-a1c8-4f64-88b8-6b81d734be41
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+_core:
+  default_config_hash: W4KCcSdNX4D-F3sUZRdAD0uRMWjtDTNMIdbDzeArTdM
+template: lms_messages_new_request
+label: 'New membership request'
+description: 'Created when teacher needs to be notified that someone requested course access.'
+text:
+  -
+    value: 'Course access request on [message:course:entity:title]'
+    format: plain_text
+  -
+    value: 'Student [message:user:entity:display-name] just requested access to [message:course:entity:title].\r\nManage course membership requests here: [site:base-url]/group/[message:course:target_id]/members-pending'
+    format: plain_text
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

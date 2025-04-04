@@ -1,0 +1,36 @@
+uuid: b8b96f81-5f49-44e7-9eae-986bab18e477
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.lms_messages_new_request.course
+    - field.field.message.lms_messages_new_request.user
+    - message.template.lms_messages_new_request
+_core:
+  default_config_hash: eSwNCHKI0T5cvAiBJJk3scEt39bI2LQV4O-oHGylUSM
+id: message.lms_messages_new_request.default
+targetEntityType: message
+bundle: lms_messages_new_request
+mode: default
+content:
+  course:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: 1f0dbe6d-faea-44e7-b746-3bcabb1c4ba5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - field.field.message.lms_messages_rejected_request.course
+    - message.template.lms_messages_rejected_request
+id: message.lms_messages_rejected_request.mail_body
+targetEntityType: message
+bundle: lms_messages_rejected_request
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  course: true
+  partial_0: true

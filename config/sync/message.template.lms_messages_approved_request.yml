@@ -1,0 +1,24 @@
+uuid: 45172af6-62ff-4a54-9605-71b6afd42945
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+_core:
+  default_config_hash: 9VICJ8mLvYF-Fko5BjNbr0ALMbcorLUz1kdFAhu6M8M
+template: lms_messages_approved_request
+label: 'Membership request approved'
+description: "Created when a student's membership request is approved"
+text:
+  -
+    value: 'Your course access request to "[message:course:entity:title]" has been approved'
+    format: plain_text
+  -
+    value: 'You can now access the "[message:course:entity:title]" course.\r\n[site:base-url]/group/[message:course:target_id]'
+    format: plain_text
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

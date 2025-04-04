@@ -1,0 +1,21 @@
+uuid: dbcbf960-a34f-4d74-b2a3-f7ad16e8cedb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - field.field.message.lms_messages_new_request.course
+    - field.field.message.lms_messages_new_request.user
+    - message.template.lms_messages_new_request
+id: message.lms_messages_new_request.mail_body
+targetEntityType: message
+bundle: lms_messages_new_request
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  course: true
+  partial_0: true
+  user: true

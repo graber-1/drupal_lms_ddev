@@ -1,0 +1,33 @@
+uuid: 0f3834e9-2fc8-4ffe-91a9-5d094a40ec48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.lms_messages_rejected_request.course
+    - message.template.lms_messages_rejected_request
+_core:
+  default_config_hash: 0x4UmPUlrIF4uebg5yB6ZLRBVjv62orbV132HOdN8DA
+id: message.lms_messages_rejected_request.default
+targetEntityType: message
+bundle: lms_messages_rejected_request
+mode: default
+content:
+  course:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  partial_0:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  partial_1:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

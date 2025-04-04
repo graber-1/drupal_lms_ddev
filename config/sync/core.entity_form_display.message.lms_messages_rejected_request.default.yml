@@ -1,0 +1,25 @@
+uuid: e3c3fc3b-155d-4a5f-b14b-23834602b777
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.lms_messages_rejected_request.course
+    - message.template.lms_messages_rejected_request
+_core:
+  default_config_hash: r2l6lJOiaddGzwoPjqbQgJETl7SSDWcdDqs3HR7l8Us
+id: message.lms_messages_rejected_request.default
+targetEntityType: message
+bundle: lms_messages_rejected_request
+mode: default
+content:
+  course:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

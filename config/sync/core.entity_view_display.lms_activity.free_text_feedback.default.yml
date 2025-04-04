@@ -1,0 +1,33 @@
+uuid: e44024c9-5f85-4eb7-89aa-d9cf4cf6bfd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.free_text_feedback.minimum_characters
+    - field.field.lms_activity.free_text_feedback.phrase_feedback
+    - field.field.lms_activity.free_text_feedback.question
+    - lms.lms_activity_type.free_text_feedback
+  module:
+    - text
+_core:
+  default_config_hash: b7sUC-wq5qexWELbHjM29RnPLk9ofAXpoHW1h0KaXBk
+id: lms_activity.free_text_feedback.default
+targetEntityType: lms_activity
+bundle: free_text_feedback
+mode: default
+content:
+  question:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  feedback_if_absent: true
+  feedback_if_present: true
+  minimum_characters: true
+  name: true
+  phrase_feedback: true
+  phrases: true
+  uid: true

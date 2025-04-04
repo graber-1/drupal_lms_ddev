@@ -1,0 +1,19 @@
+uuid: 469e2438-9550-40f7-9662-494c278deeb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_subject
+    - field.field.message.lms_messages_approved_request.course
+    - message.template.lms_messages_approved_request
+id: message.lms_messages_approved_request.mail_subject
+targetEntityType: message
+bundle: lms_messages_approved_request
+mode: mail_subject
+content:
+  partial_0:
+    weight: 0
+    region: content
+hidden:
+  course: true
+  partial_1: true

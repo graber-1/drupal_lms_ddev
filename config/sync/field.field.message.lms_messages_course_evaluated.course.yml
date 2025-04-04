@@ -1,17 +1,17 @@
-uuid: 509c3cd9-4ec0-4551-980e-9272a1fac81a
+uuid: 536d8a38-f589-48a4-a421-4fc101aaf906
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.message.course
     - group.type.lms_course
-    - message.template.course_evaluated
+    - message.template.lms_messages_course_evaluated
 _core:
-  default_config_hash: XhlLoTrFlhVW7VaEDTorh_uyXBk_fMUHzSpqJR3BOPs
-id: message.course_evaluated.course
+  default_config_hash: C7Tc1-of13E8_DdV_ybdHe43RvCPEacyuG4GT17uFfM
+id: message.lms_messages_course_evaluated.course
 field_name: course
 entity_type: message
-bundle: course_evaluated
+bundle: lms_messages_course_evaluated
 label: Course
 description: ''
 required: false

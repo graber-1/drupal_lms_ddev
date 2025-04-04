@@ -1,0 +1,9 @@
+uuid: c4ec4b6b-f4be-4fa4-b602-3ef1ec4f3621
+langcode: en
+status: true
+dependencies: {  }
+id: free_text_feedback
+name: 'Free text with feedback'
+description: ''
+pluginId: free_text_feedback
+defaultMaxScore: 5

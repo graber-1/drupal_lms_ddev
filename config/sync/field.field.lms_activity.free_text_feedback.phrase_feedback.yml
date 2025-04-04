@@ -1,0 +1,23 @@
+uuid: 62ef29cb-105c-473a-a814-c911918d5914
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.phrase_feedback
+    - lms.lms_activity_type.free_text_feedback
+  module:
+    - lms_answer_plugins
+_core:
+  default_config_hash: gJ5uLMmMHaxm5DkNYpB11O9BvOL-rjlgW-VcQlf7WR4
+id: lms_activity.free_text_feedback.phrase_feedback
+field_name: phrase_feedback
+entity_type: lms_activity
+bundle: free_text_feedback
+label: 'Phrase-based Feedback'
+description: 'Define phrases to search for in student answers, and give feedback based on whether they are present or absent.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: lms_phrase_feedback

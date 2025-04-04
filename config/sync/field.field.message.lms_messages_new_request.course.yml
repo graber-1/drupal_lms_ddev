@@ -1,0 +1,31 @@
+uuid: 4e7be51b-2959-4886-8d1f-df8371d6e872
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.course
+    - group.type.lms_course
+    - message.template.lms_messages_new_request
+_core:
+  default_config_hash: eTBKPbbZfB2jKBlVHwXO-1aguVfzA8-LWOLgMlwyH3k
+id: message.lms_messages_new_request.course
+field_name: course
+entity_type: message
+bundle: lms_messages_new_request
+label: Course
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:group'
+  handler_settings:
+    target_bundles:
+      lms_course: lms_course
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

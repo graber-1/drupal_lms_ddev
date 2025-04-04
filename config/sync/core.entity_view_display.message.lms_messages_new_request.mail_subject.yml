@@ -1,0 +1,21 @@
+uuid: 2acdf295-05ac-44f3-adad-c51601584f2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_subject
+    - field.field.message.lms_messages_new_request.course
+    - field.field.message.lms_messages_new_request.user
+    - message.template.lms_messages_new_request
+id: message.lms_messages_new_request.mail_subject
+targetEntityType: message
+bundle: lms_messages_new_request
+mode: mail_subject
+content:
+  partial_0:
+    weight: 0
+    region: content
+hidden:
+  course: true
+  partial_1: true
+  user: true

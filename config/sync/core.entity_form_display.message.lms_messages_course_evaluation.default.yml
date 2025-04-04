@@ -1,16 +1,16 @@
-uuid: 2c7a5dc5-39ce-472b-b0ac-650587095082
+uuid: 416c97f2-5ce8-47e9-95ed-a7b6c0310262
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.message.course_needs_evaluation.course
-    - field.field.message.course_needs_evaluation.user
-    - message.template.course_needs_evaluation
+    - field.field.message.lms_messages_course_evaluation.course
+    - field.field.message.lms_messages_course_evaluation.user
+    - message.template.lms_messages_course_evaluation
 _core:
-  default_config_hash: wkKKVnAKzUeZtPt0gfZNm6S8aZ_8RjrL342y2cDpFDg
-id: message.course_needs_evaluation.default
+  default_config_hash: SDASlWte6bOZKqSJqY99k7kyVztjJRV_wTqmGLFnH3U
+id: message.lms_messages_course_evaluation.default
 targetEntityType: message
-bundle: course_needs_evaluation
+bundle: lms_messages_course_evaluation
 mode: default
 content:
   course:
