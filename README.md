@@ -11,23 +11,6 @@
 7. `ddev composer si`
 
 
-## Running automated tests
-
-1. `ddev ssh`
-2. `mkdir web/sites/default/files/simpletest/browser_output`
-   (if not already done)
-3. `composer test`
-
-
-## Code analysis tools
-
-To check all, run `ddev analyse-code path/to/analyzed/folder`.
-For single tool analysis of the LMS module execute:
-1. phpcs: `ddev composer phpcs`
-2. phpcbf: `ddev composer phpcbf`
-3. phpstan: `ddev composer phpstan`
-
-
 ## Local development & QA
 
 1. `cd web/modules/contrib/lms`
@@ -41,3 +24,16 @@ To create a site with test content already created, run:
 
 To create a site with the initial state of functional JS tests, run:
 `ddev composer test-environment`
+
+
+## Running automated tests and code analysis tools for modules
+
+1. `ddev ssh`
+2. `mkdir web/sites/default/files/simpletest/browser_output`
+   (if not already done)
+3. `composer test [module_name]` (the module folder must be in 
+   web/modules/contrib)
+4. `composer phpstan [module_name]` (the module folder must be in 
+   web/modules/contrib)
+5. `composer phpcs [module_name]` (the module folder must be in 
+   web/modules/contrib)
