@@ -39,6 +39,13 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 28
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   text_format:
     type: options_select
     weight: 27
