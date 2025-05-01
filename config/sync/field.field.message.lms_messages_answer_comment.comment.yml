@@ -1,0 +1,31 @@
+uuid: 3c5dc54b-7e8d-482d-a84b-829260bef12b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lms_answer_comment
+    - field.storage.message.comment
+    - message.template.lms_messages_answer_comment
+_core:
+  default_config_hash: Ac2h8Lpb6bnQjSSYBj-VODGO2F99CMcyrNSPFYRUtYo
+id: message.lms_messages_answer_comment.comment
+field_name: comment
+entity_type: message
+bundle: lms_messages_answer_comment
+label: Comment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:comment'
+  handler_settings:
+    target_bundles:
+      lms_answer_comment: lms_answer_comment
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

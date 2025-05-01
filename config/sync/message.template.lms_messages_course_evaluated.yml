@@ -14,7 +14,7 @@ text:
     value: 'Course [message:course:entity:title] has been evaluated'
     format: plain_text
   -
-    value: '[message:course:entity:title] has just been evaluated by your teacher. Your results: [site:base-url]/group/[message:course:target_id]/course-results'
+    value: "[message:course:entity:title] has just been evaluated by your teacher.\r\nYour results: [site:base-url]/group/[message:course:target_id]/course-results"
     format: plain_text
 settings:
   'token options':

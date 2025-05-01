@@ -1,0 +1,51 @@
+uuid: f2459916-abb8-4c3f-bd5c-23beb358ef79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.message.lms_messages_answer_comment.activity
+    - field.field.message.lms_messages_answer_comment.comment
+    - field.field.message.lms_messages_answer_comment.course
+    - message.template.lms_messages_answer_comment
+_core:
+  default_config_hash: pgBv7VZnt-IhL81OysTNAbBGI-yVacvjFQ6tDn59Mg4
+id: message.lms_messages_answer_comment.default
+targetEntityType: message
+bundle: lms_messages_answer_comment
+mode: default
+content:
+  activity:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  course:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  partial_0:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  partial_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

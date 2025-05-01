@@ -1,0 +1,29 @@
+uuid: d9476408-3291-4c48-a5ee-dde6f590444e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.activity
+    - message.template.lms_messages_answer_comment
+_core:
+  default_config_hash: Ft8QIYY2GXXvvJzD7RMArWRcl6E4zlSJiIrH5t4QOU8
+id: message.lms_messages_answer_comment.activity
+field_name: activity
+entity_type: message
+bundle: lms_messages_answer_comment
+label: Activity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_activity'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

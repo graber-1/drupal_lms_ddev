@@ -1,0 +1,23 @@
+uuid: c466bb3a-e1af-43ff-98b2-86aab9877c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - field.field.message.lms_messages_answer_comment.activity
+    - field.field.message.lms_messages_answer_comment.comment
+    - field.field.message.lms_messages_answer_comment.course
+    - message.template.lms_messages_answer_comment
+id: message.lms_messages_answer_comment.mail_body
+targetEntityType: message
+bundle: lms_messages_answer_comment
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  activity: true
+  comment: true
+  course: true
+  partial_0: true

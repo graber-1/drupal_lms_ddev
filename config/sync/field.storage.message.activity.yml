@@ -1,0 +1,22 @@
+uuid: 85883f9b-bb56-4f95-9a92-b33b35f62ac0
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+    - message
+_core:
+  default_config_hash: rezbYB4yiBWgRiao1ZkbplkbxO2TzoZ0hHdwZWZCjO4
+id: message.activity
+field_name: activity
+entity_type: message
+type: entity_reference
+settings:
+  target_type: lms_activity
+module: core
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -14,7 +14,7 @@ text:
     value: 'Course access request on [message:course:entity:title]'
     format: plain_text
   -
-    value: 'Student [message:user:entity:display-name] just requested access to [message:course:entity:title].\r\nManage course membership requests here: [site:base-url]/group/[message:course:target_id]/members-pending'
+    value: "Student [message:user:entity:display-name] just requested access to [message:course:entity:title].\r\nManage course membership requests here: [site:base-url]/group/[message:course:target_id]/members-pending"
     format: plain_text
 settings:
   'token options':

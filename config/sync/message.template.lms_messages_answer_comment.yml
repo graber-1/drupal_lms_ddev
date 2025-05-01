@@ -1,0 +1,24 @@
+uuid: da2d0c62-0a10-45f0-9321-3e075bf28f1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain_text
+_core:
+  default_config_hash: iAlMwvlqm6eVbeHXFy-J0N5zmy_Az-7nU-I4-2MWO24
+template: lms_messages_answer_comment
+label: 'Answer comment notification'
+description: 'Created when a teacher comments on a student answer'
+text:
+  -
+    value: 'There''s a new comment on your answer on the "[message:course:entity:title]" course'
+    format: plain_text
+  -
+    value: "You have a new comment on yout answer to the \"[message:activity:entity:label]\" activity of the \"[message:course:entity:title]\" course:\r\n[message:comment:entity:body]\r\nCourse URL: [site:base-url]/group/[message:course:target_id]"
+    format: plain_text
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }
