@@ -272,6 +272,60 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
+        results_link:
+          id: results_link
+          table: lms_course_status
+          field: results_link
+          relationship: course_status
+          group_type: group
+          admin_label: ''
+          entity_type: lms_course_status
+          plugin_id: lms_course_results_link
+          label: Results
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          output_url_as_text: 0
+          link_target: _self
+          link_text: show
+          no_results_text: 'Not started'
         last_activity_ts:
           id: last_activity_ts
           table: lms_course_status
