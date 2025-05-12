@@ -1227,16 +1227,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "11.1.6",
+            "version": "11.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "d436fecd9f6296c49fcec0acda19df03129f59dd"
+                "reference": "b0241948975ede8ca221971ecd3f71793447fded"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/d436fecd9f6296c49fcec0acda19df03129f59dd",
-                "reference": "d436fecd9f6296c49fcec0acda19df03129f59dd",
+                "url": "https://api.github.com/repos/drupal/core/zipball/b0241948975ede8ca221971ecd3f71793447fded",
+                "reference": "b0241948975ede8ca221971ecd3f71793447fded",
                 "shasum": ""
             },
             "require": {
@@ -1389,13 +1389,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/11.1.6"
+                "source": "https://github.com/drupal/core/tree/11.1.7"
             },
-            "time": "2025-04-02T21:04:03+00:00"
+            "time": "2025-05-08T03:56:29+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "11.1.6",
+            "version": "11.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1439,7 +1439,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.1.6"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.1.7"
             },
             "time": "2024-11-02T22:49:15+00:00"
         },
@@ -1568,17 +1568,17 @@
         },
         {
             "name": "drupal/group",
-            "version": "3.3.4",
+            "version": "3.3.5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/group.git",
-                "reference": "3.3.4"
+                "reference": "3.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/group-3.3.4.zip",
-                "reference": "3.3.4",
-                "shasum": "b28d14dcccbef0317964084c752c4c14a56a4522"
+                "url": "https://ftp.drupal.org/files/projects/group-3.3.5.zip",
+                "reference": "3.3.5",
+                "shasum": "5e8df19cf48ef171bbe042e4d4b2f8107a339530"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1592,8 +1592,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.3.4",
-                    "datestamp": "1739358478",
+                    "version": "3.3.5",
+                    "datestamp": "1746519542",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1628,7 +1628,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "44e123b1866a2cbb0ba6b9addc8a210a65081ecf"
+                "reference": "5a3ef28256b7683c7191b789d258a25bde4ac514"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1644,8 +1644,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+4-dev",
-                    "datestamp": "1746442094",
+                    "version": "1.0.4+1-dev",
+                    "datestamp": "1746791984",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7768,7 +7768,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "11.1.6",
+            "version": "11.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -7817,7 +7817,7 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-dev/tree/11.1.6"
+                "source": "https://github.com/drupal/core-dev/tree/11.1.7"
             },
             "time": "2024-12-09T12:29:59+00:00"
         },
@@ -8704,16 +8704,16 @@
         },
         {
             "name": "open-telemetry/context",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/context.git",
-                "reference": "5f553042b951d3fedf47925852c380159dfca801"
+                "reference": "1eb2b837ee9362db064a6b65d5ecce15a9f9f020"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/context/zipball/5f553042b951d3fedf47925852c380159dfca801",
-                "reference": "5f553042b951d3fedf47925852c380159dfca801",
+                "url": "https://api.github.com/repos/opentelemetry-php/context/zipball/1eb2b837ee9362db064a6b65d5ecce15a9f9f020",
+                "reference": "1eb2b837ee9362db064a6b65d5ecce15a9f9f020",
                 "shasum": ""
             },
             "require": {
@@ -8759,7 +8759,7 @@
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2025-05-02T01:57:57+00:00"
+            "time": "2025-05-07T23:36:50+00:00"
         },
         {
             "name": "open-telemetry/exporter-otlp",
@@ -11818,16 +11818,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.12.2",
+            "version": "3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa"
+                "reference": "65ff2489553b83b4597e89c3b8b721487011d186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa",
-                "reference": "6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/65ff2489553b83b4597e89c3b8b721487011d186",
+                "reference": "65ff2489553b83b4597e89c3b8b721487011d186",
                 "shasum": ""
             },
             "require": {
@@ -11898,7 +11898,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-04-13T04:10:18+00:00"
+            "time": "2025-05-11T03:36:00+00:00"
         },
         {
             "name": "symfony/browser-kit",
