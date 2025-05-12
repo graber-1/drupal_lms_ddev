@@ -1676,7 +1676,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "3eb979ae9733225e7aa07a43b9c3bdc5a8b28180"
+                "reference": "5a3ef28256b7683c7191b789d258a25bde4ac514"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1692,8 +1692,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.3+2-dev",
-                    "datestamp": "1746617430",
+                    "version": "1.0.4+1-dev",
+                    "datestamp": "1746791984",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1732,7 +1732,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_membership_request.git",
-                "reference": "c5540eda6b8f86cb6d8808d75e0e1d8f7921a9d3"
+                "reference": "3093eac812b618f6a7a6aa5d6dc78f61b2bbd950"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1745,8 +1745,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.0-beta3+1-dev",
-                    "datestamp": "1744789956",
+                    "version": "1.0.0-beta4+1-dev",
+                    "datestamp": "1746783895",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1826,7 +1826,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_xapi.git",
-                "reference": "8f0f68a21e5963dac63c0c1a3b1de0edebf16f1c"
+                "reference": "ac14899ea711ef2c44564e4567bbcc772779eb7c"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1841,8 +1841,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.0-alpha1+1-dev",
-                    "datestamp": "1743769162",
+                    "version": "1.0.0-alpha2+2-dev",
+                    "datestamp": "1746810195",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -12332,16 +12332,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.12.2",
+            "version": "3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa"
+                "reference": "65ff2489553b83b4597e89c3b8b721487011d186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa",
-                "reference": "6d4cf6032d4b718f168c90a96e36c7d0eaacb2aa",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/65ff2489553b83b4597e89c3b8b721487011d186",
+                "reference": "65ff2489553b83b4597e89c3b8b721487011d186",
                 "shasum": ""
             },
             "require": {
@@ -12412,7 +12412,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-04-13T04:10:18+00:00"
+            "time": "2025-05-11T03:36:00+00:00"
         },
         {
             "name": "symfony/browser-kit",
