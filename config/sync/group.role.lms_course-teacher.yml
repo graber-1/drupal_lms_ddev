@@ -13,6 +13,7 @@ scope: insider
 global_role: lms_teacher
 group_type: lms_course
 permissions:
+  - 'add students'
   - 'administer members'
   - 'create ggroup:lms_class relationship'
   - 'delete any ggroup:lms_class relationship'
