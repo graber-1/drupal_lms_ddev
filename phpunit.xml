@@ -34,6 +34,7 @@
     <env name="SIMPLETEST_BASE_URL" value="http://web"/>
     <!-- To disable deprecation testing completely uncomment the next line. -->
     <!-- <env name="SYMFONY_DEPRECATIONS_HELPER" value="disabled"/> -->
+    <!-- The below line may cause annoying unrelated test fails. Replace with <env name="SYMFONY_DEPRECATIONS_HELPER" value="disabled"/> to resolve. -->
     <env name="SYMFONY_DEPRECATIONS_HELPER" value="ignoreFile=web/core/.deprecation-ignore.txt"/>
     <!-- Example for changing the driver class for mink tests MINK_DRIVER_CLASS value: 'Drupal\FunctionalJavascriptTests\DrupalSelenium2Driver' -->
     <env name="MINK_DRIVER_CLASS" value=''/>
