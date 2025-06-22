@@ -334,9 +334,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              lms_admin: '0'
-              lms_teacher: '0'
             placeholder: ''
           is_grouped: false
           group_info:
@@ -378,9 +375,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              lms_admin: '0'
-              lms_teacher: '0'
           is_grouped: false
           group_info:
             label: ''
