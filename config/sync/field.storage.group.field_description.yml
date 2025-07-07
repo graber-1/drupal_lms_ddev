@@ -1,15 +1,16 @@
-uuid: cf4f93ab-55a7-4ed3-8c9a-14df8a33037f
+uuid: 718e3fed-1535-4c50-aa02-665374ce0724
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_test
-field_name: field_test
-entity_type: node
-type: timestamp
+    - group
+    - text
+id: group.field_description
+field_name: field_description
+entity_type: group
+type: text_long
 settings: {  }
-module: core
+module: text
 locked: false
 cardinality: 1
 translatable: true

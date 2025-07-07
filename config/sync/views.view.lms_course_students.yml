@@ -543,7 +543,7 @@ display:
             bundles:
               lms_course: lms_course
             access: true
-            operation: update
+            operation: view
             multiple: 0
       filters:
         type:
