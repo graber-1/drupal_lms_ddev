@@ -3,9 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.group.lms_course.field_description
+    - field.field.group.lms_course.field_image
     - group.type.lms_course
+    - image.style.thumbnail
   module:
+    - image
     - lms
+    - text
 _core:
   default_config_hash: AvxoRlOK0TTXrOKua9aDBmd4CrlV9-lu7V5mHoOvO9k
 id: group.lms_course.default
@@ -13,6 +18,22 @@ targetEntityType: group
 bundle: lms_course
 mode: default
 content:
+  field_description:
+    type: text_textarea
+    weight: 33
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 32
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
   free_navigation:
     type: boolean_checkbox
     weight: 28

@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_test
     - node.type.page
   module:
     - text
@@ -26,12 +25,6 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_test:
-    type: datetime_timestamp
-    weight: 122
     region: content
     settings: {  }
     third_party_settings: {  }
