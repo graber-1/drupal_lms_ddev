@@ -1,0 +1,11 @@
+uuid: 49403208-9cdb-44b8-800d-43dd0a4b1250
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+id: lms_activity.token
+label: Token
+description: null
+targetEntityType: lms_activity
+cache: true

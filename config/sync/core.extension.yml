@@ -38,6 +38,7 @@ module:
   state_machine: 0
   system: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0

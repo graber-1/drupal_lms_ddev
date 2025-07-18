@@ -1,6 +1,6 @@
 uuid: 45172af6-62ff-4a54-9605-71b6afd42945
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - filter.format.plain_text

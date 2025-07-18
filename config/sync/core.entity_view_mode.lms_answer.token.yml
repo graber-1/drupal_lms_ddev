@@ -1,0 +1,11 @@
+uuid: ec477a88-dea0-427a-be1c-1948406860bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+id: lms_answer.token
+label: Token
+description: null
+targetEntityType: lms_answer
+cache: true
