@@ -8,6 +8,7 @@ dependencies:
   module:
     - group
     - lms
+    - lms_classes
     - user
     - views_bulk_operations
 id: lms_course_students
@@ -696,14 +697,21 @@ display:
           row_class: ''
           default_row_class: true
           columns:
+            views_bulk_operations_bulk_form: views_bulk_operations_bulk_form
             label: label
             name: name
             status: status
+            results_link: results_link
             last_activity_ts: last_activity_ts
             gid: gid
             operations: operations
           default: last_activity_ts
           info:
+            views_bulk_operations_bulk_form:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
             label:
               sortable: true
               default_sort_order: asc
@@ -720,6 +728,13 @@ display:
               responsive: ''
             status:
               sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            results_link:
+              sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
@@ -750,6 +765,7 @@ display:
           empty_table: false
           caption: ''
           description: ''
+          class: ''
       row:
         type: fields
       query:
@@ -797,8 +813,8 @@ display:
         - url.query_args
         - user.group_permissions
       tags: {  }
-  page:
-    id: page
+  page_1:
+    id: page_1
     display_title: Page
     display_plugin: page
     position: 1
