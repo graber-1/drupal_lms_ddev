@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55c56aef16b1f452678b1c518d50a4bb",
+    "content-hash": "e709c01db3aa4a7a113345fcb257c5cd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1621,11 +1621,11 @@
         },
         {
             "name": "drupal/lms",
-            "version": "dev-1.0.x",
+            "version": "dev-1.1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "7f7864d9be128bce21b3cbd706dedce7a83711e9"
+                "reference": "e3456c5fbd2b075de94c5f4007a8a1ae301f55f8"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1638,11 +1638,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.0.x": "1.0.x-dev"
+                    "dev-1.1.x": "1.1.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.9+1-dev",
-                    "datestamp": "1754647900",
+                    "version": "1.1.0-beta1+2-dev",
+                    "datestamp": "1754667636",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."

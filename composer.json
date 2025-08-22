@@ -20,7 +20,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/core": "^11",
         "drupal/core-composer-scaffold": "^11",
-        "drupal/lms": "1.0.x-dev",
+        "drupal/lms": "dev-1.1.x",
         "drupal/views_bulk_operations": "^4.3",
         "drush/drush": "^13.3"
     },
