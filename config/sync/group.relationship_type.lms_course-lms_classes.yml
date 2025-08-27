@@ -6,6 +6,7 @@ dependencies:
     - group.type.lms_course
   module:
     - lms
+    - lms_classes
 id: lms_course-lms_classes
 group_type: lms_course
 content_plugin: lms_classes

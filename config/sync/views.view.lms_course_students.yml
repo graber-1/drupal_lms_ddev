@@ -8,8 +8,11 @@ dependencies:
   module:
     - group
     - lms
+    - lms_classes
     - user
     - views_bulk_operations
+_core:
+  default_config_hash: 4tVfLF_gW0w5aNOYL11lPX35O9oD3uoUjUoOpAu5cS8
 id: lms_course_students
 label: 'LMS Course students'
 module: views
@@ -87,11 +90,16 @@ display:
             -
               action_id: views_bulk_operations_delete_entity
               preconfiguration:
+                add_confirmation: true
+                confirm_help_text: ''
                 label_override: 'Remove students'
+                message_override: ''
             -
               action_id: 'lms:reset_course_progress'
               preconfiguration:
                 add_confirmation: true
+                confirm_help_text: ''
+                message_override: ''
         label:
           id: label
           table: group_relationship_field_data
@@ -145,7 +153,8 @@ display:
           hide_alter_empty: true
           click_sort_column: value
           type: string
-          settings: {  }
+          settings:
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -373,7 +382,7 @@ display:
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
-          empty: ''
+          empty: 'Not started'
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
@@ -541,7 +550,7 @@ display:
       access:
         type: lms_course_permission
         options:
-          group_permission: 'administer members'
+          group_permission: 'view students'
       cache:
         type: tag
         options: {  }
@@ -696,14 +705,21 @@ display:
           row_class: ''
           default_row_class: true
           columns:
+            views_bulk_operations_bulk_form: views_bulk_operations_bulk_form
             label: label
             name: name
             status: status
+            results_link: results_link
             last_activity_ts: last_activity_ts
             gid: gid
             operations: operations
           default: last_activity_ts
           info:
+            views_bulk_operations_bulk_form:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
             label:
               sortable: true
               default_sort_order: asc
@@ -720,6 +736,13 @@ display:
               responsive: ''
             status:
               sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            results_link:
+              sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
@@ -750,6 +773,7 @@ display:
           empty_table: false
           caption: ''
           description: ''
+          class: ''
       row:
         type: fields
       query:
