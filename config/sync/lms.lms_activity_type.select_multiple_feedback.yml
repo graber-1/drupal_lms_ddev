@@ -5,5 +5,7 @@ dependencies: {  }
 id: select_multiple_feedback
 name: 'Multiple answer select with feedback'
 description: ''
-pluginId: select_multiple_feedback
+pluginId: select_feedback
+pluginConfiguration:
+  selection_type: multiple
 defaultMaxScore: 5

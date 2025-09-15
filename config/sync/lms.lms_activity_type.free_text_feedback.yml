@@ -6,4 +6,5 @@ id: free_text_feedback
 name: 'Free text with feedback'
 description: ''
 pluginId: free_text_feedback
+pluginConfiguration: {  }
 defaultMaxScore: 5

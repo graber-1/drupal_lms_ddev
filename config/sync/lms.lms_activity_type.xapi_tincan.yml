@@ -6,4 +6,5 @@ id: xapi_tincan
 name: 'Xapi / TinCan'
 description: ''
 pluginId: xapi
+pluginConfiguration: {  }
 defaultMaxScore: 5

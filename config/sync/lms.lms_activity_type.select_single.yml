@@ -5,5 +5,7 @@ dependencies: {  }
 id: select_single
 name: 'Select single'
 description: ''
-pluginId: select_single
+pluginId: select
+pluginConfiguration:
+  selection_type: single
 defaultMaxScore: 5

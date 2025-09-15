@@ -6,4 +6,5 @@ id: free_text
 name: 'Free text'
 description: ''
 pluginId: free_text
+pluginConfiguration: {  }
 defaultMaxScore: 5
