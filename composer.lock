@@ -1747,7 +1747,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "c6561bcd721e2f71be622287e51ca52a889afcb6"
+                "reference": "dc8c562947117899e45f93aeaf5c8386b99d1fd6"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1763,8 +1763,8 @@
                     "dev-1.1.x": "1.1.x-dev"
                 },
                 "drupal": {
-                    "version": "1.1.0-beta1+4-dev",
-                    "datestamp": "1756289996",
+                    "version": "1.1.0-beta3+2-dev",
+                    "datestamp": "1757931114",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1780,10 +1780,6 @@
                     "name": "Marcin Grabias",
                     "homepage": "https://www.drupal.org/u/graber",
                     "role": "Maintainer"
-                },
-                {
-                    "name": "catch",
-                    "homepage": "https://www.drupal.org/user/35733"
                 },
                 {
                     "name": "graber",
