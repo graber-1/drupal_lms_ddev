@@ -6,4 +6,5 @@ id: no_answer
 name: 'No answer'
 description: ''
 pluginId: no_answer
+pluginConfiguration: {  }
 defaultMaxScore: 5

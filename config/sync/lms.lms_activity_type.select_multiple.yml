@@ -5,5 +5,7 @@ dependencies: {  }
 id: select_multiple
 name: 'Select multiple'
 description: ''
-pluginId: select_multiple
+pluginId: select
+pluginConfiguration:
+  selection_type: multiple
 defaultMaxScore: 5

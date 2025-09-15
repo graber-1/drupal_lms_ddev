@@ -5,5 +5,7 @@ dependencies: {  }
 id: select_single_feedback
 name: 'Single answer select with feedback'
 description: ''
-pluginId: select_single_feedback
+pluginId: select_feedback
+pluginConfiguration:
+  selection_type: single
 defaultMaxScore: 5

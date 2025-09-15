@@ -6,4 +6,5 @@ id: true_false_feedback
 name: 'True / false with feedback'
 description: ''
 pluginId: true_false_feedback
+pluginConfiguration: {  }
 defaultMaxScore: 5
