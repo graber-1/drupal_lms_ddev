@@ -1,7 +1,3 @@
 {
-  "patches": {
-    "drupal/grequest": {
-      "project/grequest/issues/3507217": "patches/grequest.patch"
-    }
-  }
+  "patches": {}
 }
