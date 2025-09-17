@@ -1625,7 +1625,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms.git",
-                "reference": "dc8c562947117899e45f93aeaf5c8386b99d1fd6"
+                "reference": "125024b49de75b0951ed7d21d2529e0bcb77d01b"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1641,8 +1641,8 @@
                     "dev-1.1.x": "1.1.x-dev"
                 },
                 "drupal": {
-                    "version": "1.1.0-beta3+2-dev",
-                    "datestamp": "1757931114",
+                    "version": "1.1.0-beta4+1-dev",
+                    "datestamp": "1758062806",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
