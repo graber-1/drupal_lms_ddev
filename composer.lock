@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5cd27ef46e696009030af745cd0cf36",
+    "content-hash": "28b0adc559c5b54e978ce9f29e6163ca",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1794,6 +1794,44 @@
             }
         },
         {
+            "name": "drupal/lms_classes",
+            "version": "1.0.10",
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/lms": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.10",
+                    "datestamp": "1756293973",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "graber",
+                    "homepage": "https://www.drupal.org/user/1599440"
+                }
+            ],
+            "description": "Stub module to allow for automatic upgrade path.",
+            "homepage": "https://www.drupal.org/project/lms",
+            "support": {
+                "source": "https://git.drupalcode.org/project/lms"
+            }
+        },
+        {
             "name": "drupal/lms_h5p",
             "version": "1.0.0-alpha2",
             "source": {
@@ -1848,25 +1886,26 @@
         },
         {
             "name": "drupal/lms_membership_request",
-            "version": "dev-1.0.x",
+            "version": "dev-1.1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lms_membership_request.git",
-                "reference": "3093eac812b618f6a7a6aa5d6dc78f61b2bbd950"
+                "reference": "55f295ce1e824fc98022476e6c29c42e8300e9d8"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
                 "drupal/grequest": "^3.2",
-                "drupal/lms": "^1.0"
+                "drupal/lms": "^1.1",
+                "drupal/lms_classes": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.0.x": "1.0.x-dev"
+                    "dev-1.1.x": "1.1.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.0-beta4+1-dev",
-                    "datestamp": "1746783895",
+                    "version": "1.1.0-beta1+3-dev",
+                    "datestamp": "1757350582",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
