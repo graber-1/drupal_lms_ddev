@@ -21,6 +21,7 @@
         "drupal/core": "^11",
         "drupal/core-composer-scaffold": "^11",
         "drupal/lms": "1.1.x-dev",
+        "drupal/lms_file_upload": "1.0.x-dev@dev",
         "drupal/lms_h5p": "^1.0@alpha",
         "drupal/lms_membership_request": "1.1.x-dev@dev",
         "drupal/lms_messages": "1.0.x-dev@dev",
