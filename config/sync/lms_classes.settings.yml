@@ -1,0 +1,2 @@
+create_default_class: true
+class_name_pattern: 'Class [lms_cn:class_no]'
