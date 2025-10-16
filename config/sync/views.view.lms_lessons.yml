@@ -77,13 +77,13 @@ display:
           buttons: false
           action_title: Action
           clear_on_exposed: true
-          force_selection_info: false
           selected_actions:
             -
               action_id: 'entity:save_action:lms_lesson'
               preconfiguration:
                 add_confirmation: false
                 message_override: ''
+          force_selection_info: false
         name:
           id: name
           table: lms_lesson_field_data
