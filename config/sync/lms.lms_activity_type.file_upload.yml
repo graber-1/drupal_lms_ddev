@@ -1,0 +1,11 @@
+uuid: d2717077-b104-444f-8f05-0a89aeceacd0
+langcode: en
+status: true
+dependencies: {  }
+id: file_upload
+name: 'File upload'
+description: ''
+pluginId: file_upload
+pluginConfiguration:
+  default_file_extensions: 'txt pdf'
+defaultMaxScore: 5

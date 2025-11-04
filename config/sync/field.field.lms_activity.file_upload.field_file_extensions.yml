@@ -1,0 +1,21 @@
+uuid: 18adfeba-100c-4436-a332-2dc67804249c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_file_extensions
+    - lms.lms_activity_type.file_upload
+_core:
+  default_config_hash: 8zbBxAl6oFQ63f9tt2PPLv1r-fbvGJ3tY_9bUcL5wls
+id: lms_activity.file_upload.field_file_extensions
+field_name: field_file_extensions
+entity_type: lms_activity
+bundle: file_upload
+label: 'Allowed file extensions'
+description: "Separate extensions with a comma or space. Each extension can contain alphanumeric characters, '.', and '_', and should start and end with an alphanumeric character. <strong>If not set, the allowed extensions will be inherited from the plugin's configuration.</strong>"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

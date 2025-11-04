@@ -1,0 +1,54 @@
+uuid: 472c8704-e854-411b-8fcf-dd028b67c281
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.file_upload.field_file_extensions
+    - lms.lms_activity_type.file_upload
+_core:
+  default_config_hash: fQ44AmG3bJIpdchbMdfk1KRaQpNkAzxAXl9g0g2RZU8
+id: lms_activity.file_upload.default
+targetEntityType: lms_activity
+bundle: file_upload
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_file_extensions:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

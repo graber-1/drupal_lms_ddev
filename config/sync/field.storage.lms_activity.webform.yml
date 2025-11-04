@@ -1,0 +1,22 @@
+uuid: 1fc06cdb-65f4-47af-ad1a-72ed7afc723d
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+    - webform
+_core:
+  default_config_hash: JJm8EkhIa3WZP23hMDoaYaOxBvI9I0glK9I42PrX3F4
+id: lms_activity.webform
+field_name: webform
+entity_type: lms_activity
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -53,4 +53,5 @@ content:
 hidden:
   changed: true
   created: true
+  membership_validation: true
   uid: true

@@ -1,0 +1,11 @@
+uuid: 04c34a7d-0bbc-4375-a79c-12f36f635b81
+langcode: en
+status: true
+dependencies: {  }
+id: webform
+name: Webform
+description: ''
+pluginId: webform
+pluginConfiguration:
+  evaluated_on_save: false
+defaultMaxScore: 10

@@ -1,0 +1,56 @@
+uuid: 32ceab7d-4eb1-47b1-aeb9-f9ef4c21fffa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.webform.webform
+    - lms.lms_activity_type.webform
+  module:
+    - webform
+_core:
+  default_config_hash: DzUSStOEfmsIsj15yPsSGGAJICFh6A2bYq1t5jcwhr4
+id: lms_activity.webform.default
+targetEntityType: lms_activity
+bundle: webform
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  webform:
+    type: webform_entity_reference_select
+    weight: 27
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,27 @@
+uuid: 905f63a6-d98c-42f6-b369-cbd016ade1cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.webform
+    - lms.lms_activity_type.webform
+  module:
+    - webform
+_core:
+  default_config_hash: hoPh96tak99ixNIgGSa_ul-J_NPBGq6lCC097XGbkN8
+id: lms_activity.webform.webform
+field_name: webform
+entity_type: lms_activity
+bundle: webform
+label: Webform
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

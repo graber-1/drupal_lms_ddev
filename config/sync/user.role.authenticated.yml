@@ -2,7 +2,10 @@ uuid: 6448e5f4-12c9-40f3-a2d2-38e85da727c0
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.webform_default
   module:
+    - filter
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -12,3 +15,4 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format webform_default'

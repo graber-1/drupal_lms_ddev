@@ -22,8 +22,10 @@ module:
   lms_answer_comments: 0
   lms_answer_plugins: 0
   lms_classes: 0
+  lms_file_upload: 0
   lms_membership_request: 0
   lms_messages: 0
+  lms_webform: 0
   lms_xapi: 0
   lms_xapi_activity: 0
   lms_xapi_lesson: 0
@@ -45,6 +47,8 @@ module:
   user: 0
   views_bulk_operations: 0
   views_ui: 0
+  webform: 0
+  webform_ui: 0
   views: 10
   minimal: 1000
 theme:

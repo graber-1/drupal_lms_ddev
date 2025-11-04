@@ -1,0 +1,33 @@
+uuid: e549ab3d-5298-4f5f-b8b6-8a8a02ac7dc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.file_upload.field_file_extensions
+    - lms.lms_activity_type.file_upload
+  module:
+    - user
+_core:
+  default_config_hash: 6alzhapUwaxm5hxIx7zU_4ULFnnqXdhoD0u7AstNWD0
+id: lms_activity.file_upload.default
+targetEntityType: lms_activity
+bundle: file_upload
+mode: default
+content:
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_file_extensions: true

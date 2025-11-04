@@ -1,0 +1,33 @@
+uuid: 584ed718-121d-44a6-a52a-c5d217a23d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.webform.webform
+    - lms.lms_activity_type.webform
+  module:
+    - user
+_core:
+  default_config_hash: Pc0a-q7nMlixeQRvagWcplXf44QSqzTjsDCBxb1WXpE
+id: lms_activity.webform.default
+targetEntityType: lms_activity
+bundle: webform
+mode: default
+content:
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  webform: true
