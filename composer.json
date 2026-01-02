@@ -30,11 +30,10 @@
         "drupal/core-dev": "^11",
         "drupal/devel": "^5.3",
         "drupal/developer_console": "^1.0@dev",
-        "ergebnis/phpstan-rules": "^1.0",
         "phpspec/prophecy-phpunit": "^2.0",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-strict-rules": "^1.2",
-        "phpunit/phpunit": "^9 || ^10.5"
+        "phpunit/phpunit": "^11"
     },
     "conflict": {
         "drupal/drupal": "*"
