@@ -18,8 +18,8 @@
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
-        "drupal/core": "^11",
-        "drupal/core-composer-scaffold": "^11",
+        "drupal/core": "^10",
+        "drupal/core-composer-scaffold": "^10",
         "drupal/lms": "1.1.x-dev",
         "drupal/views_bulk_operations": "^4.3",
         "drush/drush": "^13.3"
@@ -27,13 +27,13 @@
     "require-dev": {
         "chi-teck/drupal-coder-extension": "^1.2",
         "drupal/config_inspector": "^2.1",
-        "drupal/core-dev": "^11",
+        "drupal/core-dev": "^10",
         "drupal/devel": "^5.3",
         "drupal/developer_console": "^1.0@dev",
         "phpspec/prophecy-phpunit": "^2.0",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-strict-rules": "^1.2",
-        "phpunit/phpunit": "^11"
+        "phpunit/phpunit": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"

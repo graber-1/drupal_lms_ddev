@@ -21,6 +21,7 @@ module:
   lms_answer_comments: 0
   lms_answer_plugins: 0
   lms_classes: 0
+  lms_hooks_test: 0
   mysql: 0
   node: 0
   options: 0
