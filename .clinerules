@@ -1,0 +1,18 @@
+# Cline AI Assistant Rules for this Project
+
+## Memory Bank
+- **Location:** `AI/MEMORY_BANK.md`
+- **Action:** Read this file at the start of each new task for comprehensive project context
+- **Contains:** Architecture, patterns, conventions, entity types, development workflows
+- **Important:** After reading the memory bank, explicitly confirm to the user that you have loaded the project context from AI/MEMORY_BANK.md
+
+## Project Type
+- Drupal 11 LMS (Learning Management System)
+- Custom module development focus
+- Strict code quality standards (PHPStan, PHPCS)
+
+## Always Remember
+1. Follow Drupal 11 OOP hooks pattern
+2. Use strict types: `declare(strict_types=1);`
+3. Run code quality checks before completion
+4. Consult AI/MEMORY_BANK.md for project-specific patterns
