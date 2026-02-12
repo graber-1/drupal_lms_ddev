@@ -1,5 +1,13 @@
 # DDEV based Local development stack
 
+## AI Documentation
+
+This project includes an **AI folder** (`AI/`) containing documentation for AI assistants:
+- **AI/MEMORY_BANK.md** - Comprehensive project documentation including architecture, patterns, and guidelines
+- **AI/README.md** - Guide for using and maintaining AI documentation
+
+AI assistants should read `AI/MEMORY_BANK.md` at the start of each task for project context.
+
 ## Setting up
 
 1. Clone this repo, enter the folder.
