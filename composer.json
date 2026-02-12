@@ -38,11 +38,11 @@
         "drupal/core-dev": "^11",
         "drupal/devel": "^5.3",
         "drupal/developer_console": "^1.0@dev",
-        "ergebnis/phpstan-rules": "^1.0",
+        "ergebnis/phpstan-rules": "^2.0",
         "phpspec/prophecy-phpunit": "^2.0",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-strict-rules": "^1.2",
-        "phpunit/phpunit": "^9 || ^10.5"
+        "phpunit/phpunit": "^9 || ^10.5 || ^11"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -65,7 +65,6 @@
         "si": "drush site:install -v minimal --existing-config --yes --sites-subdir=default",
         "sid": "drush site:install -v minimal --existing-config --yes --sites-subdir=default && drush lms-ctt --simple-passwords && drush en -y developer_console && drush uli",
         "test-environment": "drush si minimal --yes && drush thin claro && drush cset system.theme default claro -y && drush pm:install dblog block page_cache dynamic_page_cache lms lms_answer_plugins lms_answer_comments -y && drush lms-ctt --simple-passwords",
-        "test": "rm -rf web/sites/simpletest/[0-9]*; rm web/sites/simpletest/browser_output/*; phpunit web/modules/contrib/@additional_args/",
         "phpcs": "phpcs -s --standard='web/modules/contrib/@additional_args/phpcs.xml' web/modules/contrib/@additional_args/",
         "phpcbf": "phpcbf /var/www/html/web/modules/contrib/@additional_args",
         "phpstan": "phpstan -vv analyse /var/www/html/web/modules/contrib/@additional_args -c /var/www/html/web/modules/contrib/@additional_args/phpstan.neon",
