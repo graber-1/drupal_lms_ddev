@@ -1,0 +1,24 @@
+uuid: abd4fee4-1e10-4b80-bb2d-e23fb1964c28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_question_text
+    - lms.lms_activity_type.fill_in_the_blanks
+  module:
+    - text
+_core:
+  default_config_hash: J0g7F-5-f0npPyaKAN2URbzBc9yntAMfN3DnYOxsERY
+id: lms_activity.fill_in_the_blanks.field_question_text
+field_name: field_question_text
+entity_type: lms_activity
+bundle: fill_in_the_blanks
+label: 'Question Text'
+description: 'Enter the full text, enclosing the correct answer words or phrases in [square brackets]. Example: "The capital of France is [Paris]."'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

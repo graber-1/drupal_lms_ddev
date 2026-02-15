@@ -1,0 +1,21 @@
+uuid: 19f8e8be-beb8-4256-8239-4beefba1888d
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+    - text
+_core:
+  default_config_hash: UD5lfqKJRO2_wWnJ29un0IRAx8aZXh6Mu4jXPLyd3UQ
+id: lms_activity.field_feedback_if_wrong
+field_name: field_feedback_if_wrong
+entity_type: lms_activity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

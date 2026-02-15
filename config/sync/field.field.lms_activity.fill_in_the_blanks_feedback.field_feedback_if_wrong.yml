@@ -1,0 +1,24 @@
+uuid: c42abba4-b758-4946-8c16-2f53d379fb03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_feedback_if_wrong
+    - lms.lms_activity_type.fill_in_the_blanks_feedback
+  module:
+    - text
+_core:
+  default_config_hash: M9_Ka_fcfenskoHZWOQfKB-MIKTQ95KXM1f9H3xDbbI
+id: lms_activity.fill_in_the_blanks_feedback.field_feedback_if_wrong
+field_name: field_feedback_if_wrong
+entity_type: lms_activity
+bundle: fill_in_the_blanks_feedback
+label: 'Feedback if wrong'
+description: 'Feedback to give the student when their answer is incorrect or incomplete.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

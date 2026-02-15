@@ -1,0 +1,24 @@
+uuid: 33692489-50a5-4b7a-8593-24c59382cf90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_feedback_if_correct
+    - lms.lms_activity_type.fill_in_the_blanks_feedback
+  module:
+    - text
+_core:
+  default_config_hash: t7Vr2SpYeX59P7NtiaIE9QawonQXmiUrMfyGH7s-I-M
+id: lms_activity.fill_in_the_blanks_feedback.field_feedback_if_correct
+field_name: field_feedback_if_correct
+entity_type: lms_activity
+bundle: fill_in_the_blanks_feedback
+label: 'Feedback if correct'
+description: 'Feedback to give the student when they have correctly filled all blanks.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

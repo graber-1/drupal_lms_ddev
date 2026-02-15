@@ -1,0 +1,69 @@
+uuid: 0cbd2d72-41c0-418d-8125-48d1e9e47bf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_distraction_words
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_feedback_if_correct
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_feedback_if_wrong
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_question_text
+    - lms.lms_activity_type.fill_in_the_blanks_feedback
+  module:
+    - text
+_core:
+  default_config_hash: olD6l-HR3jsto40emrxikr0BJWM9G8vc0M8TFUECZrY
+id: lms_activity.fill_in_the_blanks_feedback.default
+targetEntityType: lms_activity
+bundle: fill_in_the_blanks_feedback
+mode: default
+content:
+  field_distraction_words:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Enter incorrect word choices.'
+    third_party_settings: {  }
+  field_feedback_if_correct:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 3
+      placeholder: 'Feedback for a fully correct answer.'
+    third_party_settings: {  }
+  field_feedback_if_wrong:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 3
+      placeholder: 'Feedback for an incorrect or incomplete answer.'
+    third_party_settings: {  }
+  field_question_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: 'Enter the text with correct answers in [brackets].'
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    region: content
+    weight: 26
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

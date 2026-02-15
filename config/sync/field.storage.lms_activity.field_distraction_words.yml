@@ -1,0 +1,23 @@
+uuid: 53eefa6f-41d9-4b48-ac29-e6c1e35c8415
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms
+_core:
+  default_config_hash: nDf5LW2O2SRUDxD2W4Vj24bhafNyrgnvbSJAkP_qULE
+id: lms_activity.field_distraction_words
+field_name: field_distraction_words
+entity_type: lms_activity
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

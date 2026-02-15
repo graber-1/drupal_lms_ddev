@@ -1,0 +1,21 @@
+uuid: 88260fa3-063e-4978-b218-892434b74ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_activity.field_distraction_words
+    - lms.lms_activity_type.fill_in_the_blanks_feedback
+_core:
+  default_config_hash: 3E4dJcZmsVPIoMezYPLO9CDWtbtH3J-A1qhkRKPUPUg
+id: lms_activity.fill_in_the_blanks_feedback.field_distraction_words
+field_name: field_distraction_words
+entity_type: lms_activity
+bundle: fill_in_the_blanks_feedback
+label: 'Distraction Words'
+description: 'Add any incorrect words you want to include in the available choices. These will be mixed with the correct answers.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

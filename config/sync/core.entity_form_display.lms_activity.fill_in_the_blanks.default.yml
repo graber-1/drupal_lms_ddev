@@ -1,0 +1,51 @@
+uuid: f2399daf-424d-4f66-bebd-2a7c394c7d4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.fill_in_the_blanks.field_distraction_words
+    - field.field.lms_activity.fill_in_the_blanks.field_question_text
+    - lms.lms_activity_type.fill_in_the_blanks
+  module:
+    - text
+_core:
+  default_config_hash: orwXRAJu9QZbxRC-37HB60N8nLPwSoYwXOH6ZGrbSlc
+id: lms_activity.fill_in_the_blanks.default
+targetEntityType: lms_activity
+bundle: fill_in_the_blanks
+mode: default
+content:
+  field_distraction_words:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Enter an incorrect word choice.'
+    third_party_settings: {  }
+  field_question_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: 'Enter the text with correct answers in [brackets].'
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    region: content
+    weight: 26
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

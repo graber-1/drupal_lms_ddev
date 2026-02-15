@@ -1,0 +1,10 @@
+uuid: bda7899d-8c88-4a3a-ba94-1f606d6fc197
+langcode: en
+status: true
+dependencies: {  }
+id: fill_in_the_blanks_feedback
+name: 'Fill in the Blanks with Feedback'
+description: 'Drag words to fill in the blanks and get immediate feedback'
+pluginId: fill_in_the_blanks_feedback
+pluginConfiguration: {  }
+defaultMaxScore: 10

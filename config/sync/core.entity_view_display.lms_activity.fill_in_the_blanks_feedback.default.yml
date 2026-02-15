@@ -1,0 +1,24 @@
+uuid: d47dee1a-8c8e-459e-bc9a-9f6ea2129746
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_distraction_words
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_feedback_if_correct
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_feedback_if_wrong
+    - field.field.lms_activity.fill_in_the_blanks_feedback.field_question_text
+    - lms.lms_activity_type.fill_in_the_blanks_feedback
+_core:
+  default_config_hash: BpF8VCkh2Rh2F-kfawYCEcWqHS85_akuWjgg6AkGU-o
+id: lms_activity.fill_in_the_blanks_feedback.default
+targetEntityType: lms_activity
+bundle: fill_in_the_blanks_feedback
+mode: default
+content: {  }
+hidden:
+  field_distraction_words: true
+  field_feedback_if_correct: true
+  field_feedback_if_wrong: true
+  field_question_text: true
+  name: true
+  uid: true
