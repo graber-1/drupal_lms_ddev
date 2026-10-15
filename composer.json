@@ -20,7 +20,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/core": "^11",
         "drupal/core-composer-scaffold": "^11",
-        "drupal/lms": "1.1.x-dev",
+        "drupal/lms": "1.2.x-dev@dev",
         "drupal/views_bulk_operations": "^4.3",
         "drush/drush": "^13.3"
     },
@@ -45,11 +45,12 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "phpstan/extension-installer": true,
             "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
             "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "symfony/runtime": true,
             "tbachert/spi": true
         }
     },

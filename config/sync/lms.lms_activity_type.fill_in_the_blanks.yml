@@ -1,0 +1,10 @@
+uuid: 9c28979a-1323-4e3d-acab-549523f3432a
+langcode: en
+status: true
+dependencies: {  }
+id: fill_in_the_blanks
+name: 'Fill in the Blanks'
+description: 'Drag words to fill in the blanks in the text'
+pluginId: fill_in_the_blanks
+pluginConfiguration: {  }
+defaultMaxScore: 10

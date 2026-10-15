@@ -1,0 +1,20 @@
+uuid: 66cbf203-9318-4d10-bf53-82d69e9c032a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_activity.fill_in_the_blanks.field_distraction_words
+    - field.field.lms_activity.fill_in_the_blanks.field_question_text
+    - lms.lms_activity_type.fill_in_the_blanks
+_core:
+  default_config_hash: D-fX7hbU4sgzbZYEwJ0HGxofGF2R6ybvngNir4CvXLs
+id: lms_activity.fill_in_the_blanks.default
+targetEntityType: lms_activity
+bundle: fill_in_the_blanks
+mode: default
+content: {  }
+hidden:
+  field_distraction_words: true
+  field_question_text: true
+  name: true
+  uid: true

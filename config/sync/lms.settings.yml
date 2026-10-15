@@ -1,0 +1,3 @@
+show_editor_reset_button: true
+langcode: en
+activity_page_title: '[lms_lesson:label] - [lms_activity:label]'
